@@ -1,0 +1,53 @@
+﻿# Ignore virtualenv
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+
+# Temporary working area
+.tmp/
+
+# One-off temp/backup files
+*.bak
+*.bak_*
+*.orig
+tmp_*
+
+# Environment secrets
+.env
+.env.*
+.env.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Local logs folder (some runs write here)
+logs/
+
+# Local editor settings (optional)
+.idea/
+
+
+# Keep template env file committed
+!.env.example
+# Local helper scripts
+tools_*.py
+min*.py
+# VS Code workspace (local tasks/settings)
+.vscode/
+
+
+

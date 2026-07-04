@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; margin: 12px; }
+  .report-title { font-size: 18px; font-weight: 700; margin: 6px 0 10px; }
+  table.report { border-collapse: collapse; width: 100%; max-width: 1400px; }
+  table.report th, table.report td { border: 1px solid #cfcfcf; padding: 6px 8px; font-size: 13px; }
+  table.report th { background: #f0f0f0; text-align: center; font-weight: 700; }
+  table.report td { text-align: center; }
+  table.report td.left { text-align: left; }
+
+  tr.category-header td { background: #ffffff; font-weight: 700; text-align: left; }
+  tr.category-labels td { background: #eef7e8; font-weight: 700; }
+  tr.category-row td { background: #eef7e8; font-weight: 700; }
+
+  tr.overall-header td { background: #e8f4fb; font-weight: 700; text-align: left; }
+  tr.overall-row td { background: #e8f4fb; }
+</style>
+</head><body><div class="report-title">Algorithm Hidden Summary Table (grok)</div><table class="report"><tr><th>Algorithm</th><th>Category</th><th>Avg Score</th><th>Score Std</th><th>Test Count</th><th>ID Score</th><th>Cat Score</th><th>Vuln Score</th><th>Decrypt Score</th><th>Reason Score</th></tr><tr><td class="left">SHA-256</td><td>Hash</td><td>0.645</td><td>0.033</td><td>60</td><td>1.000</td><td>1.000</td><td>0.545</td><td>0.000</td><td>0.899</td></tr>
+<tr><td class="left">AES-CBC</td><td>Modern Symmetric</td><td>0.638</td><td>0.026</td><td>60</td><td>1.000</td><td>1.000</td><td>0.422</td><td>0.008</td><td>0.929</td></tr>
+<tr><td class="left">Caesar cipher</td><td>Classical</td><td>0.622</td><td>0.363</td><td>60</td><td>0.633</td><td>0.933</td><td>0.332</td><td>0.625</td><td>0.850</td></tr>
+<tr><td class="left">RSA-4096</td><td>Asymmetric</td><td>0.611</td><td>0.021</td><td>60</td><td>1.000</td><td>1.000</td><td>0.098</td><td>0.022</td><td>0.944</td></tr>
+<tr><td class="left">RSA-2048</td><td>Asymmetric</td><td>0.607</td><td>0.017</td><td>60</td><td>1.000</td><td>1.000</td><td>0.078</td><td>0.016</td><td>0.947</td></tr>
+<tr><td class="left">ECDSA (P-256)</td><td>Asymmetric</td><td>0.604</td><td>0.015</td><td>60</td><td>1.000</td><td>1.000</td><td>0.110</td><td>0.000</td><td>0.925</td></tr>
+<tr><td class="left">Substitution cipher</td><td>Classical</td><td>0.589</td><td>0.268</td><td>60</td><td>0.800</td><td>0.867</td><td>0.240</td><td>0.273</td><td>0.831</td></tr>
+<tr><td class="left">AES-CTR</td><td>Modern Symmetric</td><td>0.554</td><td>0.188</td><td>60</td><td>0.867</td><td>0.983</td><td>0.237</td><td>0.017</td><td>0.921</td></tr>
+<tr><td class="left">AES-ECB</td><td>Modern Symmetric</td><td>0.535</td><td>0.207</td><td>60</td><td>0.833</td><td>0.967</td><td>0.229</td><td>0.019</td><td>0.902</td></tr>
+<tr><td class="left">Ed25519</td><td>Asymmetric</td><td>0.515</td><td>0.200</td><td>60</td><td>0.817</td><td>1.000</td><td>0.180</td><td>0.000</td><td>0.883</td></tr>
+<tr><td class="left">AES-GCM</td><td>Modern Symmetric</td><td>0.395</td><td>0.269</td><td>60</td><td>0.550</td><td>1.000</td><td>0.205</td><td>0.013</td><td>0.956</td></tr>
+<tr><td class="left">Vigenère cipher</td><td>Classical</td><td>0.216</td><td>0.222</td><td>60</td><td>0.200</td><td>0.800</td><td>0.140</td><td>0.050</td><td>0.869</td></tr>
+<tr><td class="left">ChaCha20-Poly1305</td><td>Modern Symmetric</td><td>0.204</td><td>0.206</td><td>60</td><td>0.183</td><td>1.000</td><td>0.107</td><td>0.026</td><td>0.942</td></tr>
+<tr><td class="left">SHA-3-256</td><td>Hash</td><td>0.099</td><td>0.008</td><td>60</td><td>0.000</td><td>1.000</td><td>0.073</td><td>0.000</td><td>0.912</td></tr>
+<tr><td class="left">BLAKE3</td><td>Hash</td><td>0.098</td><td>0.009</td><td>60</td><td>0.000</td><td>1.000</td><td>0.077</td><td>0.000</td><td>0.900</td></tr><tr class="category-header"><td class="left" colspan="10">CATEGORY SUMMARY</td></tr><tr class="category-labels"><td>Category</td><td>Avg Score</td><td>Score Std</td><td>Test Count</td><td>ID Score</td><td>Cat Score</td><td>Exact Match Rate</td><td></td><td></td><td></td></tr><tr class="category-row"><td class="left">Asymmetric</td><td>0.584</td><td>0.108</td><td>240</td><td>0.954</td><td>1.000</td><td>95.4%</td><td></td><td></td><td></td></tr>
+<tr class="category-row"><td class="left">Classical</td><td>0.476</td><td>0.343</td><td>180</td><td>0.544</td><td>0.867</td><td>54.4%</td><td></td><td></td><td></td></tr>
+<tr class="category-row"><td class="left">Hash</td><td>0.280</td><td>0.259</td><td>180</td><td>0.333</td><td>1.000</td><td>33.3%</td><td></td><td></td><td></td></tr>
+<tr class="category-row"><td class="left">Modern Symmetric</td><td>0.465</td><td>0.248</td><td>300</td><td>0.687</td><td>0.990</td><td>68.7%</td><td></td><td></td><td></td></tr><tr class="overall-header"><td class="left" colspan="10">OVERALL EXPERIMENT SUMMARY</td></tr><tr class="overall-row"><td class="left"><b>Total Tests</b></td><td>900</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Successful Analyses</b></td><td>900</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Overall Score</b></td><td>0.462</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Score Std Dev</b></td><td>0.266</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>ID Score Avg</b></td><td>0.659</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Category Score Avg</b></td><td>0.970</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Vuln Score Avg</b></td><td>0.205</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Decrypt Score Avg</b></td><td>0.071</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Reason Score Avg</b></td><td>0.907</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Exact Match Rate</b></td><td>65.9%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class="overall-row"><td class="left"><b>Category Match Rate</b></td><td>97.0%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>

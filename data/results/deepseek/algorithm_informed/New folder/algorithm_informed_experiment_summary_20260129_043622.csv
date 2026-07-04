@@ -1,0 +1,16 @@
+test_id,algorithm,category,difficulty,response_success,overall_score,vulnerability_score,decryption_score,reasoning_score,confidence,suggested_attacks_count,vulnerabilities_count
+caesar_000,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,4
+vigenere_000,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_000,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+aes_gcm_000,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_000,AES-CBC,modern_symmetric,hard,True,0.40576923076923077,0.5,0.07692307692307691,1.0,0.75,4,3
+aes_ctr_000,AES-CTR,modern_symmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+chacha20_000,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,4,3
+aes_ecb_000,AES-ECB,modern_symmetric,medium,True,0.20357142857142857,0.0,0.07142857142857144,1.0,0.75,4,5
+sha256_000,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.75,4,4
+sha3_256_000,SHA-3-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+blake3_000,BLAKE3,hash,medium,True,0.62,0.3,0.2,1.0,0.65,4,3
+rsa_2048_000,RSA-2048,asymmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,4,3
+rsa_4096_000,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+ecdsa_000,ECDSA (P-256),asymmetric,very_hard,True,0.37632653061224497,0.5,0.04081632653061225,0.9,0.75,4,3
+ed25519_000,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3

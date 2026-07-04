@@ -1,0 +1,901 @@
+test_id,algorithm,category,difficulty,response_success,overall_score,vulnerability_score,decryption_score,reasoning_score,confidence,suggested_attacks_count,vulnerabilities_count
+caesar_000,Caesar cipher,classical,easy,True,0.7750000000000001,0.5,1.0,1.0,1.0,4,4
+caesar_001,Caesar cipher,classical,easy,True,0.4600000000000001,0.5,0.25,0.9,0.95,4,4
+caesar_002,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_003,Caesar cipher,classical,easy,True,0.5377777777777778,0.5,0.4444444444444445,0.9,1.0,4,4
+caesar_004,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,0.95,4,4
+caesar_005,Caesar cipher,classical,easy,True,0.7600000000000001,0.5,1.0,0.9,1.0,4,4
+caesar_006,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,4
+caesar_007,Caesar cipher,classical,easy,True,0.4021052631578948,0.5,0.10526315789473685,0.9,1.0,4,4
+caesar_008,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_009,Caesar cipher,classical,easy,True,0.4021052631578948,0.5,0.10526315789473685,0.9,0.95,4,4
+caesar_010,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+caesar_011,Caesar cipher,classical,easy,True,0.33,0.5,0.0,0.7,1.0,4,4
+caesar_012,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_013,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_014,Caesar cipher,classical,easy,True,0.4,0.5,0.1,0.9,0.95,3,4
+caesar_015,Caesar cipher,classical,easy,True,0.4215384615384616,0.5,0.15384615384615385,0.9,0.95,4,4
+caesar_016,Caesar cipher,classical,easy,True,0.41000000000000003,0.5,0.125,0.9,0.95,4,4
+caesar_017,Caesar cipher,classical,easy,True,0.7600000000000001,0.5,1.0,0.9,1.0,4,5
+caesar_018,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_019,Caesar cipher,classical,easy,True,0.7750000000000001,0.5,1.0,1.0,1.0,4,5
+caesar_020,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_021,Caesar cipher,classical,easy,True,0.49333333333333335,0.5,0.33333333333333326,0.9,0.95,4,4
+caesar_022,Caesar cipher,classical,easy,True,0.7600000000000001,0.5,1.0,0.9,1.0,4,4
+caesar_023,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_024,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+caesar_025,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,4
+caesar_026,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_027,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,3
+caesar_028,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_029,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,4
+caesar_030,Caesar cipher,classical,easy,True,0.4600000000000001,0.5,0.25,0.9,1.0,4,4
+caesar_031,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_032,Caesar cipher,classical,easy,True,0.5781818181818182,0.5,0.5454545454545454,0.9,1.0,4,4
+caesar_033,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+caesar_034,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_035,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+caesar_036,Caesar cipher,classical,easy,True,0.7600000000000001,0.5,1.0,0.9,1.0,4,4
+caesar_037,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,0.95,4,4
+caesar_038,Caesar cipher,classical,easy,True,0.3963636363636364,0.5,0.09090909090909091,0.9,0.95,4,4
+caesar_039,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,5
+caesar_040,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,4
+caesar_041,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+caesar_042,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_043,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_044,Caesar cipher,classical,easy,True,0.4220588235294118,0.5,0.11764705882352942,1.0,1.0,4,4
+caesar_045,Caesar cipher,classical,easy,True,0.44888888888888895,0.5,0.2222222222222222,0.9,0.95,3,3
+caesar_046,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+caesar_047,Caesar cipher,classical,easy,True,0.4600000000000001,0.5,0.25,0.9,1.0,4,4
+caesar_048,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,4
+caesar_049,Caesar cipher,classical,easy,True,0.6861111111111111,0.5,0.7777777777777778,1.0,1.0,4,4
+caesar_050,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+caesar_051,Caesar cipher,classical,easy,True,0.42500000000000004,0.5,0.125,1.0,0.95,4,4
+caesar_052,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,0.95,4,4
+caesar_053,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,5
+caesar_054,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,1.0,4,4
+caesar_055,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,0.95,4,4
+caesar_056,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+caesar_057,Caesar cipher,classical,easy,True,0.66,0.5,0.75,0.9,1.0,3,4
+caesar_058,Caesar cipher,classical,easy,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,4
+caesar_059,Caesar cipher,classical,easy,True,0.375,0.5,0.0,1.0,1.0,4,4
+vigenere_000,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_001,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_002,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_003,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_004,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_005,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_006,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_007,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_008,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_009,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_010,Vigenère cipher,classical,medium,True,0.4445652173913044,0.5,0.1739130434782609,1.0,0.75,4,3
+vigenere_011,Vigenère cipher,classical,medium,True,0.41500000000000004,0.5,0.1,1.0,0.75,4,4
+vigenere_012,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_013,Vigenère cipher,classical,medium,True,0.535,0.5,0.39999999999999997,1.0,0.65,4,3
+vigenere_014,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_015,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_016,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_017,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_018,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_019,Vigenère cipher,classical,medium,True,0.4194444444444445,0.5,0.11111111111111112,1.0,0.75,4,4
+vigenere_020,Vigenère cipher,classical,medium,True,0.4046296296296297,0.5,0.07407407407407407,1.0,0.75,4,3
+vigenere_021,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_022,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_023,Vigenère cipher,classical,medium,True,0.3940476190476191,0.5,0.047619047619047616,1.0,0.75,4,4
+vigenere_024,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_025,Vigenère cipher,classical,medium,True,0.4220588235294118,0.5,0.11764705882352941,1.0,0.75,4,3
+vigenere_026,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_027,Vigenère cipher,classical,medium,True,0.46666666666666673,0.5,0.26666666666666666,0.9,0.75,4,4
+vigenere_028,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_029,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_030,Vigenère cipher,classical,medium,True,0.4592105263157895,0.5,0.2105263157894737,1.0,0.65,4,3
+vigenere_031,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_032,Vigenère cipher,classical,medium,True,0.4194444444444445,0.5,0.11111111111111112,1.0,0.75,5,4
+vigenere_033,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,4
+vigenere_034,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,5,4
+vigenere_035,Vigenère cipher,classical,medium,True,0.5750000000000001,0.5,0.5,1.0,0.65,4,3
+vigenere_036,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,5,4
+vigenere_037,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_038,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,4
+vigenere_039,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_040,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,4
+vigenere_041,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_042,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_043,Vigenère cipher,classical,medium,True,0.3920212765957447,0.5,0.0425531914893617,1.0,0.65,4,4
+vigenere_044,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_045,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,4
+vigenere_046,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,4
+vigenere_047,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_048,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_049,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_050,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,4
+vigenere_051,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_052,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_053,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_054,Vigenère cipher,classical,medium,True,0.41500000000000004,0.5,0.1,1.0,0.75,4,3
+vigenere_055,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_056,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,3
+vigenere_057,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.65,4,3
+vigenere_058,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+vigenere_059,Vigenère cipher,classical,medium,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_000,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_001,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_002,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_003,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_004,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_005,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.95,4,4
+substitution_006,Substitution cipher,classical,hard,True,0.41710526315789476,0.5,0.10526315789473685,1.0,0.75,4,4
+substitution_007,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_008,Substitution cipher,classical,hard,True,0.4220588235294118,0.5,0.11764705882352941,1.0,0.75,4,4
+substitution_009,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_010,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_011,Substitution cipher,classical,hard,True,0.4220588235294118,0.5,0.11764705882352941,1.0,0.75,5,4
+substitution_012,Substitution cipher,classical,hard,True,0.4194444444444445,0.5,0.11111111111111112,1.0,0.65,4,4
+substitution_013,Substitution cipher,classical,hard,True,0.42500000000000004,0.5,0.125,1.0,0.75,5,4
+substitution_014,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.92,4,4
+substitution_015,Substitution cipher,classical,hard,True,0.4,0.5,0.0625,1.0,0.65,4,4
+substitution_016,Substitution cipher,classical,hard,True,0.4194444444444445,0.5,0.11111111111111112,1.0,0.75,5,4
+substitution_017,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.92,5,4
+substitution_018,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_019,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_020,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+substitution_021,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_022,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,5,4
+substitution_023,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_024,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_025,Substitution cipher,classical,hard,True,0.42833333333333334,0.5,0.13333333333333333,1.0,0.75,4,4
+substitution_026,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+substitution_027,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_028,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_029,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_030,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_031,Substitution cipher,classical,hard,True,0.41710526315789476,0.5,0.10526315789473685,1.0,0.75,4,3
+substitution_032,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_033,Substitution cipher,classical,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,4
+substitution_034,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_035,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_036,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_037,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_038,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_039,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_040,Substitution cipher,classical,hard,True,0.42500000000000004,0.5,0.125,1.0,0.75,4,4
+substitution_041,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_042,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_043,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_044,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_045,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_046,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.95,4,4
+substitution_047,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+substitution_048,Substitution cipher,classical,hard,True,0.5204545454545455,0.5,0.3636363636363636,1.0,0.92,4,4
+substitution_049,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_050,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_051,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_052,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,5,4
+substitution_053,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+substitution_054,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,5,4
+substitution_055,Substitution cipher,classical,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+substitution_056,Substitution cipher,classical,hard,True,0.44772727272727275,0.5,0.1818181818181818,1.0,0.92,4,3
+substitution_057,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+substitution_058,Substitution cipher,classical,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+substitution_059,Substitution cipher,classical,hard,True,0.4220588235294118,0.5,0.11764705882352941,1.0,0.92,4,3
+aes_gcm_000,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_gcm_001,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_gcm_002,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_003,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,3
+aes_gcm_004,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_gcm_005,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_gcm_006,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,3
+aes_gcm_007,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,3
+aes_gcm_008,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+aes_gcm_009,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_gcm_010,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,3
+aes_gcm_011,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,3
+aes_gcm_012,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_013,AES-GCM,modern_symmetric,very_hard,True,0.45500000000000007,0.5,0.2,1.0,0.92,4,3
+aes_gcm_014,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_015,AES-GCM,modern_symmetric,very_hard,True,0.385,0.5,0.0625,0.9,0.65,4,3
+aes_gcm_016,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_gcm_017,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,4
+aes_gcm_018,AES-GCM,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.92,4,3
+aes_gcm_019,AES-GCM,modern_symmetric,very_hard,True,0.3685294117647059,0.5,0.058823529411764705,0.8,0.65,4,3
+aes_gcm_020,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_gcm_021,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,5,3
+aes_gcm_022,AES-GCM,modern_symmetric,very_hard,True,0.44166666666666665,0.5,0.16666666666666666,1.0,0.75,5,3
+aes_gcm_023,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_gcm_024,AES-GCM,modern_symmetric,very_hard,True,0.4097826086956522,0.5,0.08695652173913043,1.0,0.65,4,3
+aes_gcm_025,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_gcm_026,AES-GCM,modern_symmetric,very_hard,True,0.3885714285714286,0.5,0.07142857142857142,0.9,0.65,4,3
+aes_gcm_027,AES-GCM,modern_symmetric,very_hard,True,0.44166666666666665,0.5,0.16666666666666666,1.0,0.75,4,3
+aes_gcm_028,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_gcm_029,AES-GCM,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+aes_gcm_030,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_031,AES-GCM,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+aes_gcm_032,AES-GCM,modern_symmetric,very_hard,True,0.4,0.5,0.0625,1.0,0.65,4,2
+aes_gcm_033,AES-GCM,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,4,3
+aes_gcm_034,AES-GCM,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+aes_gcm_035,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_036,AES-GCM,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.92,4,3
+aes_gcm_037,AES-GCM,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.92,4,3
+aes_gcm_038,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,3
+aes_gcm_039,AES-GCM,modern_symmetric,very_hard,True,0.39605263157894743,0.5,0.052631578947368425,1.0,0.65,4,2
+aes_gcm_040,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_041,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,3
+aes_gcm_042,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_gcm_043,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,5,3
+aes_gcm_044,AES-GCM,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.75,4,3
+aes_gcm_045,AES-GCM,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.75,4,3
+aes_gcm_046,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_047,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,3
+aes_gcm_048,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_049,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,3
+aes_gcm_050,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_051,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_gcm_052,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,3
+aes_gcm_053,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,3
+aes_gcm_054,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_gcm_055,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_gcm_056,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_gcm_057,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,3
+aes_gcm_058,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_gcm_059,AES-GCM,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_000,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_001,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_002,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_003,AES-CBC,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.75,4,3
+aes_cbc_004,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_005,AES-CBC,modern_symmetric,hard,True,0.3992424242424243,0.5,0.060606060606060615,1.0,0.75,4,3
+aes_cbc_006,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_007,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_008,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_009,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+aes_cbc_010,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_011,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_012,AES-CBC,modern_symmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.75,4,3
+aes_cbc_013,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_014,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_015,AES-CBC,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.75,4,3
+aes_cbc_016,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_017,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_cbc_018,AES-CBC,modern_symmetric,hard,True,0.31500000000000006,0.5,0.0,0.6,0.75,4,3
+aes_cbc_019,AES-CBC,modern_symmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+aes_cbc_020,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_021,AES-CBC,modern_symmetric,hard,True,0.4600000000000001,0.5,0.25,0.9,0.65,4,3
+aes_cbc_022,AES-CBC,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.75,4,3
+aes_cbc_023,AES-CBC,modern_symmetric,hard,True,0.4083333333333333,0.5,0.08333333333333334,1.0,0.65,4,3
+aes_cbc_024,AES-CBC,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.65,4,3
+aes_cbc_025,AES-CBC,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.75,4,3
+aes_cbc_026,AES-CBC,modern_symmetric,hard,True,0.4266666666666667,0.5,0.16666666666666666,0.9,0.75,4,3
+aes_cbc_027,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_028,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_cbc_029,AES-CBC,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.75,4,4
+aes_cbc_030,AES-CBC,modern_symmetric,hard,True,0.4130952380952381,0.5,0.09523809523809525,1.0,0.65,5,4
+aes_cbc_031,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_032,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_033,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_034,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_035,AES-CBC,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.65,4,3
+aes_cbc_036,AES-CBC,modern_symmetric,hard,True,0.4035714285714286,0.5,0.07142857142857142,1.0,0.65,5,4
+aes_cbc_037,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_038,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_039,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_cbc_040,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_041,AES-CBC,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.75,4,3
+aes_cbc_042,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+aes_cbc_043,AES-CBC,modern_symmetric,hard,True,0.3992424242424243,0.5,0.0606060606060606,1.0,0.65,5,3
+aes_cbc_044,AES-CBC,modern_symmetric,hard,True,0.38162162162162167,0.5,0.05405405405405405,0.9,0.75,5,4
+aes_cbc_045,AES-CBC,modern_symmetric,hard,True,0.3842424242424243,0.5,0.06060606060606061,0.9,0.65,4,3
+aes_cbc_046,AES-CBC,modern_symmetric,hard,True,0.4,0.5,0.0625,1.0,0.65,4,3
+aes_cbc_047,AES-CBC,modern_symmetric,hard,True,0.35051282051282057,0.5,0.05128205128205128,0.7,0.75,4,3
+aes_cbc_048,AES-CBC,modern_symmetric,hard,True,0.43900000000000006,0.5,0.16,1.0,0.75,4,3
+aes_cbc_049,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_cbc_050,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_051,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_052,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_053,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_054,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_cbc_055,AES-CBC,modern_symmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+aes_cbc_056,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_057,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_058,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_cbc_059,AES-CBC,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_ctr_000,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_ctr_001,AES-CTR,modern_symmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+aes_ctr_002,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_003,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+aes_ctr_004,AES-CTR,modern_symmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.75,4,3
+aes_ctr_005,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_006,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_007,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_008,AES-CTR,modern_symmetric,hard,True,0.44166666666666665,0.5,0.16666666666666666,1.0,0.75,5,3
+aes_ctr_009,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_010,AES-CTR,modern_symmetric,hard,True,0.41500000000000004,0.5,0.1,1.0,0.65,5,3
+aes_ctr_011,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_012,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+aes_ctr_013,AES-CTR,modern_symmetric,hard,True,0.44166666666666665,0.5,0.16666666666666666,1.0,0.65,4,3
+aes_ctr_014,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_015,AES-CTR,modern_symmetric,hard,True,0.41710526315789476,0.5,0.10526315789473685,1.0,0.65,4,4
+aes_ctr_016,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_017,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.92,5,4
+aes_ctr_018,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_ctr_019,AES-CTR,modern_symmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,4,3
+aes_ctr_020,AES-CTR,modern_symmetric,hard,True,0.4025862068965518,0.5,0.06896551724137931,1.0,0.65,4,3
+aes_ctr_021,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_ctr_022,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_023,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_024,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_025,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_ctr_026,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+aes_ctr_027,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_028,AES-CTR,modern_symmetric,hard,True,0.3375,0.5,0.0,0.75,0.75,4,3
+aes_ctr_029,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+aes_ctr_030,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_031,AES-CTR,modern_symmetric,hard,True,0.33,0.5,0.0,0.7,0.75,4,3
+aes_ctr_032,AES-CTR,modern_symmetric,hard,True,0.44166666666666665,0.5,0.16666666666666666,1.0,0.75,4,3
+aes_ctr_033,AES-CTR,modern_symmetric,hard,True,0.43214285714285716,0.5,0.14285714285714285,1.0,0.65,5,4
+aes_ctr_034,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_035,AES-CTR,modern_symmetric,hard,True,0.4892857142857143,0.5,0.28571428571428575,1.0,0.65,5,3
+aes_ctr_036,AES-CTR,modern_symmetric,hard,True,0.4220588235294118,0.5,0.11764705882352941,1.0,0.65,5,4
+aes_ctr_037,AES-CTR,modern_symmetric,hard,True,0.4016666666666667,0.5,0.06666666666666667,1.0,0.65,4,3
+aes_ctr_038,AES-CTR,modern_symmetric,hard,True,0.42500000000000004,0.5,0.125,1.0,0.65,4,3
+aes_ctr_039,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_040,AES-CTR,modern_symmetric,hard,True,0.42833333333333334,0.5,0.13333333333333333,1.0,0.65,5,3
+aes_ctr_041,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_042,AES-CTR,modern_symmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+aes_ctr_043,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_044,AES-CTR,modern_symmetric,hard,True,0.43653846153846154,0.5,0.15384615384615383,1.0,0.65,4,3
+aes_ctr_045,AES-CTR,modern_symmetric,hard,True,0.43214285714285716,0.5,0.14285714285714285,1.0,0.65,5,4
+aes_ctr_046,AES-CTR,modern_symmetric,hard,True,0.495,0.5,0.3,1.0,0.65,4,3
+aes_ctr_047,AES-CTR,modern_symmetric,hard,True,0.44166666666666665,0.5,0.16666666666666666,1.0,0.75,4,3
+aes_ctr_048,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+aes_ctr_049,AES-CTR,modern_symmetric,hard,True,0.4194444444444445,0.5,0.11111111111111112,1.0,0.65,4,3
+aes_ctr_050,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_051,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+aes_ctr_052,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_053,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+aes_ctr_054,AES-CTR,modern_symmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+aes_ctr_055,AES-CTR,modern_symmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+aes_ctr_056,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,4
+aes_ctr_057,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ctr_058,AES-CTR,modern_symmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+aes_ctr_059,AES-CTR,modern_symmetric,hard,True,0.4008064516129033,0.5,0.06451612903225806,1.0,0.65,4,3
+chacha20_000,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34285714285714286,0.5,0.0,0.7857142857142857,0.65,4,2
+chacha20_001,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,5,3
+chacha20_002,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,4,3
+chacha20_003,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+chacha20_004,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,2
+chacha20_005,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,3
+chacha20_006,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+chacha20_007,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,4,2
+chacha20_008,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.95,4,2
+chacha20_009,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.4750000000000001,0.5,0.25,1.0,0.65,4,2
+chacha20_010,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,2
+chacha20_011,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,4,3
+chacha20_012,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,3
+chacha20_013,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,3
+chacha20_014,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+chacha20_015,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.4116666666666667,0.5,0.16666666666666666,0.8,0.92,4,3
+chacha20_016,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.75,4,3
+chacha20_017,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,3
+chacha20_018,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,4,2
+chacha20_019,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,2
+chacha20_020,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_021,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,4,2
+chacha20_022,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_023,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+chacha20_024,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_025,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_026,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,2
+chacha20_027,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.25,4,3
+chacha20_028,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.95,4,2
+chacha20_029,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+chacha20_030,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.45,4,3
+chacha20_031,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.95,4,2
+chacha20_032,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.95,5,2
+chacha20_033,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.95,4,3
+chacha20_034,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_035,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34285714285714286,0.5,0.0,0.7857142857142857,0.15,5,3
+chacha20_036,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.25,5,3
+chacha20_037,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,2
+chacha20_038,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_039,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.92,4,3
+chacha20_040,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+chacha20_041,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.95,4,3
+chacha20_042,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+chacha20_043,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+chacha20_044,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,5,2
+chacha20_045,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,3
+chacha20_046,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+chacha20_047,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_048,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_049,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.75,4,3
+chacha20_050,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,4,2
+chacha20_051,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.95,4,2
+chacha20_052,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.40700000000000003,0.5,0.08,1.0,0.15,4,2
+chacha20_053,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.4933333333333334,0.5,0.3333333333333333,0.9,0.65,4,3
+chacha20_054,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.95,4,3
+chacha20_055,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_056,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.34500000000000003,0.5,0.0,0.8,0.75,4,3
+chacha20_057,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+chacha20_058,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+chacha20_059,ChaCha20-Poly1305,modern_symmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+aes_ecb_000,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,5,5
+aes_ecb_001,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,4
+aes_ecb_002,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,5,5
+aes_ecb_003,AES-ECB,modern_symmetric,medium,True,0.2980769230769231,0.0,0.30769230769230765,1.0,0.65,4,4
+aes_ecb_004,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,5,5
+aes_ecb_005,AES-ECB,modern_symmetric,medium,True,0.145,0.0,0.0,0.8,0.75,4,4
+aes_ecb_006,AES-ECB,modern_symmetric,medium,True,0.145,0.0,0.0,0.8,0.75,4,4
+aes_ecb_007,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,5
+aes_ecb_008,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,5
+aes_ecb_009,AES-ECB,modern_symmetric,medium,True,0.18162162162162163,0.0,0.05405405405405406,0.9,0.75,5,5
+aes_ecb_010,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,5
+aes_ecb_011,AES-ECB,modern_symmetric,medium,True,0.2442105263157895,0.0,0.2105263157894737,0.9,0.65,4,4
+aes_ecb_012,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,4
+aes_ecb_013,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,5,5
+aes_ecb_014,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,4,4
+aes_ecb_015,AES-ECB,modern_symmetric,medium,True,0.16,0.0,0.0,0.9,0.75,4,5
+aes_ecb_016,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,4,5
+aes_ecb_017,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,5
+aes_ecb_018,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,5
+aes_ecb_019,AES-ECB,modern_symmetric,medium,True,0.20576923076923076,0.0,0.07692307692307691,1.0,0.65,5,5
+aes_ecb_020,AES-ECB,modern_symmetric,medium,True,0.1625,0.0,0.0,0.9166666666666667,0.75,5,5
+aes_ecb_021,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,4,5
+aes_ecb_022,AES-ECB,modern_symmetric,medium,True,0.1625,0.0,0.0,0.9166666666666667,0.65,5,5
+aes_ecb_023,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,5,5
+aes_ecb_024,AES-ECB,modern_symmetric,medium,True,0.125,0.0,0.0,0.6666666666666666,0.75,5,5
+aes_ecb_025,AES-ECB,modern_symmetric,medium,True,0.20357142857142857,0.0,0.07142857142857142,1.0,0.65,5,5
+aes_ecb_026,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,4
+aes_ecb_027,AES-ECB,modern_symmetric,medium,True,0.16,0.0,0.0,0.9,0.65,5,5
+aes_ecb_028,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,4
+aes_ecb_029,AES-ECB,modern_symmetric,medium,True,0.16,0.0,0.0,0.9,0.65,5,4
+aes_ecb_030,AES-ECB,modern_symmetric,medium,True,0.2130952380952381,0.0,0.09523809523809525,1.0,0.65,4,5
+aes_ecb_031,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,4
+aes_ecb_032,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,5
+aes_ecb_033,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,5
+aes_ecb_034,AES-ECB,modern_symmetric,medium,True,0.20952380952380953,0.0,0.16666666666666666,0.7857142857142857,0.75,4,5
+aes_ecb_035,AES-ECB,modern_symmetric,medium,True,0.13,0.0,0.0,0.7,0.75,5,5
+aes_ecb_036,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,4
+aes_ecb_037,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,5,5
+aes_ecb_038,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,4,5
+aes_ecb_039,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,4
+aes_ecb_040,AES-ECB,modern_symmetric,medium,True,0.15,0.0,0.0,0.8333333333333333,0.75,5,5
+aes_ecb_041,AES-ECB,modern_symmetric,medium,True,0.24166666666666667,0.0,0.16666666666666666,1.0,0.75,5,5
+aes_ecb_042,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,4
+aes_ecb_043,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,5,5
+aes_ecb_044,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,4
+aes_ecb_045,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,5
+aes_ecb_046,AES-ECB,modern_symmetric,medium,True,0.19722222222222222,0.0,0.05555555555555555,1.0,0.75,5,5
+aes_ecb_047,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,5
+aes_ecb_048,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,4,4
+aes_ecb_049,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,5
+aes_ecb_050,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.75,5,5
+aes_ecb_051,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,5
+aes_ecb_052,AES-ECB,modern_symmetric,medium,True,0.13,0.0,0.0,0.7,0.75,5,5
+aes_ecb_053,AES-ECB,modern_symmetric,medium,True,0.16,0.0,0.0,0.9,0.75,5,5
+aes_ecb_054,AES-ECB,modern_symmetric,medium,True,0.20576923076923076,0.0,0.07692307692307691,1.0,0.75,4,5
+aes_ecb_055,AES-ECB,modern_symmetric,medium,True,0.145,0.0,0.0,0.8,0.75,5,5
+aes_ecb_056,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,5
+aes_ecb_057,AES-ECB,modern_symmetric,medium,True,0.22606382978723405,0.0,0.12765957446808512,1.0,0.75,5,5
+aes_ecb_058,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,4,5
+aes_ecb_059,AES-ECB,modern_symmetric,medium,True,0.175,0.0,0.0,1.0,0.65,5,5
+sha256_000,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.25,4,3
+sha256_001,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_002,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha256_003,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,4
+sha256_004,SHA-256,hash,medium,True,0.62,0.3,0.3333333333333333,1.0,0.65,4,3
+sha256_005,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_006,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_007,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,4
+sha256_008,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_009,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_010,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.3,4,3
+sha256_011,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_012,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_013,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_014,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_015,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_016,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_017,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.75,4,3
+sha256_018,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_019,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_020,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha256_021,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_022,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.058823529411764705,1.0,0.75,4,3
+sha256_023,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.2,0.9,0.65,4,3
+sha256_024,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.75,4,3
+sha256_025,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,4
+sha256_026,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_027,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_028,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_029,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha256_030,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,2
+sha256_031,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_032,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,4
+sha256_033,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_034,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_035,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_036,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_037,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha256_038,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_039,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_040,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,5,3
+sha256_041,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_042,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_043,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_044,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_045,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_046,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,2
+sha256_047,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha256_048,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_049,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_050,SHA-256,hash,medium,True,0.62,0.3,0.28571428571428575,1.0,0.65,4,3
+sha256_051,SHA-256,hash,medium,True,0.7866666666666667,0.8,0.0,0.9166666666666667,0.65,4,4
+sha256_052,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha256_053,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_054,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,4
+sha256_055,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_056,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_057,SHA-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha256_058,SHA-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha256_059,SHA-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+sha3_256_000,SHA-3-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.75,3,3
+sha3_256_001,SHA-3-256,hash,medium,True,0.8200000000000001,0.8,0.3333333333333333,1.0,0.65,4,2
+sha3_256_002,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.95,4,3
+sha3_256_003,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_004,SHA-3-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.75,4,3
+sha3_256_005,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+sha3_256_006,SHA-3-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.75,4,3
+sha3_256_007,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_008,SHA-3-256,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,3
+sha3_256_009,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_010,SHA-3-256,hash,medium,True,0.62,0.3,0.4,1.0,0.65,4,3
+sha3_256_011,SHA-3-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha3_256_012,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_013,SHA-3-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.75,4,3
+sha3_256_014,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_015,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.95,4,3
+sha3_256_016,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_017,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_018,SHA-3-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha3_256_019,SHA-3-256,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,3
+sha3_256_020,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_021,SHA-3-256,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,2
+sha3_256_022,SHA-3-256,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,3
+sha3_256_023,SHA-3-256,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,2
+sha3_256_024,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_025,SHA-3-256,hash,medium,True,0.62,0.3,0.3333333333333333,1.0,0.65,3,3
+sha3_256_026,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_027,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_028,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+sha3_256_029,SHA-3-256,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,2
+sha3_256_030,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_031,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_032,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_033,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+sha3_256_034,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_035,SHA-3-256,hash,medium,True,0.5866666666666667,0.3,0.0,0.9166666666666667,0.65,4,3
+sha3_256_036,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_037,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_038,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_039,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_040,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+sha3_256_041,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_042,SHA-3-256,hash,medium,True,0.62,0.3,0.28571428571428575,1.0,0.65,4,3
+sha3_256_043,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.35,4,3
+sha3_256_044,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_045,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,3,2
+sha3_256_046,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_047,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_048,SHA-3-256,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+sha3_256_049,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_050,SHA-3-256,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,3
+sha3_256_051,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_052,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_053,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_054,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_055,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+sha3_256_056,SHA-3-256,hash,medium,True,0.7800000000000001,0.8,0.4,0.9,0.65,4,3
+sha3_256_057,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,3,3
+sha3_256_058,SHA-3-256,hash,medium,True,0.5800000000000001,0.3,0.28571428571428575,0.9,0.65,4,3
+sha3_256_059,SHA-3-256,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_000,BLAKE3,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,2
+blake3_001,BLAKE3,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,2
+blake3_002,BLAKE3,hash,medium,True,0.62,0.3,0.2222222222222222,1.0,0.65,4,3
+blake3_003,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_004,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_005,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_006,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_007,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_008,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_009,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_010,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_011,BLAKE3,hash,medium,True,0.62,0.3,0.2222222222222222,1.0,0.65,4,2
+blake3_012,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,3,2
+blake3_013,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_014,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_015,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_016,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_017,BLAKE3,hash,medium,True,0.62,0.3,0.13333333333333333,1.0,0.65,4,3
+blake3_018,BLAKE3,hash,medium,True,0.62,0.3,0.14285714285714288,1.0,0.65,4,2
+blake3_019,BLAKE3,hash,medium,True,0.8200000000000001,0.8,0.30769230769230765,1.0,0.65,4,3
+blake3_020,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_021,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_022,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_023,BLAKE3,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,3
+blake3_024,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_025,BLAKE3,hash,medium,True,0.7800000000000001,0.8,0.0,0.9,0.65,4,2
+blake3_026,BLAKE3,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,3
+blake3_027,BLAKE3,hash,medium,True,0.62,0.3,0.2222222222222222,1.0,0.65,4,2
+blake3_028,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_029,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_030,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_031,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_032,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_033,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_034,BLAKE3,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,3
+blake3_035,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_036,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_037,BLAKE3,hash,medium,True,0.5800000000000001,0.3,0.2222222222222222,0.9,0.65,4,3
+blake3_038,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_039,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_040,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_041,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_042,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_043,BLAKE3,hash,medium,True,0.62,0.3,0.3333333333333333,1.0,0.65,4,3
+blake3_044,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_045,BLAKE3,hash,medium,True,0.62,0.3,0.25,1.0,0.65,4,2
+blake3_046,BLAKE3,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,3
+blake3_047,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_048,BLAKE3,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,3
+blake3_049,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_050,BLAKE3,hash,medium,True,0.8200000000000001,0.8,0.0,1.0,0.65,4,2
+blake3_051,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_052,BLAKE3,hash,medium,True,0.62,0.3,0.2,1.0,0.65,4,3
+blake3_053,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_054,BLAKE3,hash,medium,True,0.62,0.3,0.14285714285714285,1.0,0.65,4,3
+blake3_055,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,3
+blake3_056,BLAKE3,hash,medium,True,0.5800000000000001,0.3,0.0,0.9,0.65,4,3
+blake3_057,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_058,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+blake3_059,BLAKE3,hash,medium,True,0.62,0.3,0.0,1.0,0.65,4,2
+rsa_2048_000,RSA-2048,asymmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,5,4
+rsa_2048_001,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_2048_002,RSA-2048,asymmetric,hard,True,0.4083333333333333,0.5,0.08333333333333334,1.0,0.65,5,4
+rsa_2048_003,RSA-2048,asymmetric,hard,True,0.39333333333333337,0.5,0.08333333333333333,0.9,0.65,4,3
+rsa_2048_004,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_2048_005,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_2048_006,RSA-2048,asymmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,4,3
+rsa_2048_007,RSA-2048,asymmetric,hard,True,0.4793478260869566,0.5,0.2608695652173913,1.0,0.65,5,4
+rsa_2048_008,RSA-2048,asymmetric,hard,True,0.3866666666666667,0.5,0.06666666666666667,0.9,0.65,5,3
+rsa_2048_009,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,3
+rsa_2048_010,RSA-2048,asymmetric,hard,True,0.42666666666666675,0.5,0.16666666666666669,0.9,0.65,5,3
+rsa_2048_011,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_2048_012,RSA-2048,asymmetric,hard,True,0.3890350877192983,0.5,0.03508771929824562,1.0,0.75,5,4
+rsa_2048_013,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+rsa_2048_014,RSA-2048,asymmetric,hard,True,0.4008064516129033,0.5,0.06451612903225806,1.0,0.65,5,3
+rsa_2048_015,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_2048_016,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+rsa_2048_017,RSA-2048,asymmetric,hard,True,0.42500000000000004,0.5,0.12499999999999999,1.0,0.65,5,4
+rsa_2048_018,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_2048_019,RSA-2048,asymmetric,hard,True,0.392,0.5,0.08000000000000002,0.9,0.65,5,4
+rsa_2048_020,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+rsa_2048_021,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,3
+rsa_2048_022,RSA-2048,asymmetric,hard,True,0.3992424242424243,0.5,0.06060606060606061,1.0,0.65,5,3
+rsa_2048_023,RSA-2048,asymmetric,hard,True,0.43425925925925934,0.5,0.14814814814814814,1.0,0.65,5,4
+rsa_2048_024,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+rsa_2048_025,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_2048_026,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_2048_027,RSA-2048,asymmetric,hard,True,0.5464285714285715,0.5,0.4285714285714285,1.0,0.65,4,3
+rsa_2048_028,RSA-2048,asymmetric,hard,True,0.40210526315789474,0.5,0.10526315789473684,0.9,0.65,5,4
+rsa_2048_029,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,4
+rsa_2048_030,RSA-2048,asymmetric,hard,True,0.3947826086956522,0.5,0.08695652173913043,0.9,0.72,5,4
+rsa_2048_031,RSA-2048,asymmetric,hard,True,0.38222222222222224,0.5,0.05555555555555556,0.9,0.65,5,3
+rsa_2048_032,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_2048_033,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_2048_034,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+rsa_2048_035,RSA-2048,asymmetric,hard,True,0.35000000000000003,0.5,0.0,0.8333333333333333,0.65,5,4
+rsa_2048_036,RSA-2048,asymmetric,hard,True,0.3753846153846154,0.5,0.038461538461538464,0.9,0.75,5,4
+rsa_2048_037,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_2048_038,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,4
+rsa_2048_039,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_2048_040,RSA-2048,asymmetric,hard,True,0.3858064516129033,0.5,0.06451612903225805,0.9,0.65,4,3
+rsa_2048_041,RSA-2048,asymmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.75,4,4
+rsa_2048_042,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_2048_043,RSA-2048,asymmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,4,3
+rsa_2048_044,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_2048_045,RSA-2048,asymmetric,hard,True,0.3966216216216216,0.5,0.05405405405405405,1.0,0.65,5,3
+rsa_2048_046,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+rsa_2048_047,RSA-2048,asymmetric,hard,True,0.39722222222222225,0.5,0.05555555555555555,1.0,0.65,4,3
+rsa_2048_048,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+rsa_2048_049,RSA-2048,asymmetric,hard,True,0.4,0.5,0.0625,1.0,0.75,5,4
+rsa_2048_050,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_2048_051,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,3
+rsa_2048_052,RSA-2048,asymmetric,hard,True,0.3795121951219513,0.5,0.04878048780487805,0.9,0.65,4,3
+rsa_2048_053,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.75,5,4
+rsa_2048_054,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,4
+rsa_2048_055,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_2048_056,RSA-2048,asymmetric,hard,True,0.44558823529411773,0.5,0.1764705882352941,1.0,0.65,4,3
+rsa_2048_057,RSA-2048,asymmetric,hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+rsa_2048_058,RSA-2048,asymmetric,hard,True,0.34500000000000003,0.5,0.0,0.8,0.65,5,4
+rsa_2048_059,RSA-2048,asymmetric,hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_4096_000,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_4096_001,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+rsa_4096_002,RSA-4096,asymmetric,very_hard,True,0.4266666666666667,0.5,0.16666666666666666,0.9,0.75,5,3
+rsa_4096_003,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,4
+rsa_4096_004,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_4096_005,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_4096_006,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_007,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,4
+rsa_4096_008,RSA-4096,asymmetric,very_hard,True,0.38379790940766556,0.5,0.04878048780487805,0.9285714285714286,0.92,5,4
+rsa_4096_009,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_4096_010,RSA-4096,asymmetric,very_hard,True,0.39605263157894743,0.5,0.05263157894736842,1.0,0.65,5,3
+rsa_4096_011,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_4096_012,RSA-4096,asymmetric,very_hard,True,0.43425925925925934,0.5,0.14814814814814814,1.0,0.65,5,4
+rsa_4096_013,RSA-4096,asymmetric,very_hard,True,0.43425925925925934,0.5,0.14814814814814814,1.0,0.65,4,3
+rsa_4096_014,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_015,RSA-4096,asymmetric,very_hard,True,0.3731147540983607,0.5,0.03278688524590164,0.9,0.75,5,4
+rsa_4096_016,RSA-4096,asymmetric,very_hard,True,0.45500000000000007,0.5,0.2,1.0,0.92,5,4
+rsa_4096_017,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_018,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_019,RSA-4096,asymmetric,very_hard,True,0.3978571428571429,0.5,0.05714285714285715,1.0,0.65,5,4
+rsa_4096_020,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,4
+rsa_4096_021,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,4
+rsa_4096_022,RSA-4096,asymmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.75,5,4
+rsa_4096_023,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,3
+rsa_4096_024,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_4096_025,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+rsa_4096_026,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_4096_027,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+rsa_4096_028,RSA-4096,asymmetric,very_hard,True,0.4083333333333333,0.5,0.08333333333333334,1.0,0.75,5,3
+rsa_4096_029,RSA-4096,asymmetric,very_hard,True,0.3810526315789474,0.5,0.05263157894736842,0.9,0.65,5,4
+rsa_4096_030,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,4
+rsa_4096_031,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_032,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_033,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_4096_034,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_4096_035,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,4
+rsa_4096_036,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+rsa_4096_037,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,4
+rsa_4096_038,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_4096_039,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_040,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,4
+rsa_4096_041,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.92,5,3
+rsa_4096_042,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+rsa_4096_043,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_044,RSA-4096,asymmetric,very_hard,True,0.3737931034482759,0.5,0.034482758620689655,0.9,0.65,4,3
+rsa_4096_045,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_4096_046,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+rsa_4096_047,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.92,5,3
+rsa_4096_048,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+rsa_4096_049,RSA-4096,asymmetric,very_hard,True,0.3913265306122449,0.5,0.04081632653061224,1.0,0.65,5,3
+rsa_4096_050,RSA-4096,asymmetric,very_hard,True,0.4070588235294118,0.5,0.11764705882352941,0.9,0.75,5,4
+rsa_4096_051,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,3
+rsa_4096_052,RSA-4096,asymmetric,very_hard,True,0.3931818181818182,0.5,0.04545454545454545,1.0,0.65,5,3
+rsa_4096_053,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_4096_054,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+rsa_4096_055,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+rsa_4096_056,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+rsa_4096_057,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,4
+rsa_4096_058,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+rsa_4096_059,RSA-4096,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ecdsa_000,ECDSA (P-256),asymmetric,very_hard,True,0.4638888888888889,0.5,0.2222222222222222,1.0,0.75,4,4
+ecdsa_001,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ecdsa_002,ECDSA (P-256),asymmetric,very_hard,True,0.3910714285714286,0.5,0.07142857142857142,0.9166666666666667,0.75,4,3
+ecdsa_003,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ecdsa_004,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ecdsa_005,ECDSA (P-256),asymmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.92,4,3
+ecdsa_006,ECDSA (P-256),asymmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.75,4,3
+ecdsa_007,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.92,4,3
+ecdsa_008,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ecdsa_009,ECDSA (P-256),asymmetric,very_hard,True,0.5204545454545455,0.5,0.36363636363636365,1.0,0.65,5,4
+ecdsa_010,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+ecdsa_011,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+ecdsa_012,ECDSA (P-256),asymmetric,very_hard,True,0.3880952380952381,0.5,0.09523809523809525,0.8333333333333333,0.75,4,3
+ecdsa_013,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ecdsa_014,ECDSA (P-256),asymmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.65,5,3
+ecdsa_015,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ecdsa_016,ECDSA (P-256),asymmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.65,4,3
+ecdsa_017,ECDSA (P-256),asymmetric,very_hard,True,0.4151724137931035,0.5,0.13793103448275862,0.9,0.95,4,3
+ecdsa_018,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+ecdsa_019,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.95,4,3
+ecdsa_020,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ecdsa_021,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ecdsa_022,ECDSA (P-256),asymmetric,very_hard,True,0.5527777777777778,0.5,0.4444444444444444,1.0,0.65,4,3
+ecdsa_023,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ecdsa_024,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+ecdsa_025,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ecdsa_026,ECDSA (P-256),asymmetric,very_hard,True,0.43214285714285716,0.5,0.14285714285714288,1.0,0.75,4,3
+ecdsa_027,ECDSA (P-256),asymmetric,very_hard,True,0.35357142857142865,0.5,0.0,0.8571428571428572,0.75,5,3
+ecdsa_028,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+ecdsa_029,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.92,4,3
+ecdsa_030,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,3
+ecdsa_031,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ecdsa_032,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+ecdsa_033,ECDSA (P-256),asymmetric,very_hard,True,0.3642857142857143,0.5,0.0,0.9285714285714286,0.75,5,3
+ecdsa_034,ECDSA (P-256),asymmetric,very_hard,True,0.35000000000000003,0.5,0.0,0.8333333333333333,0.65,5,3
+ecdsa_035,ECDSA (P-256),asymmetric,very_hard,True,0.4892857142857143,0.5,0.28571428571428575,1.0,0.75,4,3
+ecdsa_036,ECDSA (P-256),asymmetric,very_hard,True,0.4234848484848485,0.5,0.12121212121212122,1.0,0.75,4,3
+ecdsa_037,ECDSA (P-256),asymmetric,very_hard,True,0.3985294117647059,0.5,0.058823529411764705,1.0,0.75,4,3
+ecdsa_038,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+ecdsa_039,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+ecdsa_040,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
+ecdsa_041,ECDSA (P-256),asymmetric,very_hard,True,0.35357142857142865,0.5,0.0,0.8571428571428572,0.65,5,3
+ecdsa_042,ECDSA (P-256),asymmetric,very_hard,True,0.385,0.5,0.0625,0.9,0.75,4,3
+ecdsa_043,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ecdsa_044,ECDSA (P-256),asymmetric,very_hard,True,0.43214285714285716,0.5,0.14285714285714285,1.0,0.65,4,3
+ecdsa_045,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ecdsa_046,ECDSA (P-256),asymmetric,very_hard,True,0.3642857142857143,0.5,0.0,0.9285714285714286,0.65,5,3
+ecdsa_047,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ecdsa_048,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+ecdsa_049,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ecdsa_050,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ecdsa_051,ECDSA (P-256),asymmetric,very_hard,True,0.3642857142857143,0.5,0.0,0.9285714285714286,0.65,4,4
+ecdsa_052,ECDSA (P-256),asymmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.65,4,3
+ecdsa_053,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ecdsa_054,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,4
+ecdsa_055,ECDSA (P-256),asymmetric,very_hard,True,0.4742857142857143,0.5,0.2857142857142857,0.9,0.65,4,3
+ecdsa_056,ECDSA (P-256),asymmetric,very_hard,True,0.3642857142857143,0.5,0.0,0.9285714285714286,0.65,4,3
+ecdsa_057,ECDSA (P-256),asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ecdsa_058,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.92,4,3
+ecdsa_059,ECDSA (P-256),asymmetric,very_hard,True,0.3945000000000001,0.5,0.08,0.9166666666666667,0.75,4,3
+ed25519_000,Ed25519,asymmetric,very_hard,True,0.4220588235294118,0.5,0.11764705882352941,1.0,0.65,5,3
+ed25519_001,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ed25519_002,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ed25519_003,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ed25519_004,Ed25519,asymmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.65,5,4
+ed25519_005,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ed25519_006,Ed25519,asymmetric,very_hard,True,0.4194444444444445,0.5,0.1111111111111111,1.0,0.65,5,3
+ed25519_007,Ed25519,asymmetric,very_hard,True,0.44000000000000006,0.5,0.2,0.9,0.65,5,3
+ed25519_008,Ed25519,asymmetric,very_hard,True,0.45500000000000007,0.5,0.2,1.0,0.65,4,3
+ed25519_009,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+ed25519_010,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ed25519_011,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+ed25519_012,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,4
+ed25519_013,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ed25519_014,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+ed25519_015,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ed25519_016,Ed25519,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+ed25519_017,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+ed25519_018,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+ed25519_019,Ed25519,asymmetric,very_hard,True,0.36250000000000004,0.5,0.0,0.9166666666666667,0.65,4,3
+ed25519_020,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ed25519_021,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ed25519_022,Ed25519,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,4
+ed25519_023,Ed25519,asymmetric,very_hard,True,0.4234848484848485,0.5,0.12121212121212122,1.0,0.75,5,3
+ed25519_024,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ed25519_025,Ed25519,asymmetric,very_hard,True,0.42500000000000004,0.5,0.125,1.0,0.65,4,4
+ed25519_026,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+ed25519_027,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ed25519_028,Ed25519,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,5,4
+ed25519_029,Ed25519,asymmetric,very_hard,True,0.42500000000000004,0.5,0.12500000000000003,1.0,0.65,4,3
+ed25519_030,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+ed25519_031,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+ed25519_032,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,4
+ed25519_033,Ed25519,asymmetric,very_hard,True,0.43653846153846154,0.5,0.15384615384615383,1.0,0.65,4,3
+ed25519_034,Ed25519,asymmetric,very_hard,True,0.3927777777777778,0.5,0.044444444444444446,1.0,0.75,5,4
+ed25519_035,Ed25519,asymmetric,very_hard,True,0.3963636363636364,0.5,0.09090909090909091,0.9,0.65,5,3
+ed25519_036,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ed25519_037,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ed25519_038,Ed25519,asymmetric,very_hard,True,0.35000000000000003,0.5,0.0,0.8333333333333333,0.65,4,3
+ed25519_039,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ed25519_040,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,3
+ed25519_041,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ed25519_042,Ed25519,asymmetric,very_hard,True,0.4196428571428572,0.5,0.14285714285714288,0.9166666666666667,0.65,5,3
+ed25519_043,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ed25519_044,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+ed25519_045,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+ed25519_046,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ed25519_047,Ed25519,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
+ed25519_048,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,5,4
+ed25519_049,Ed25519,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,4
+ed25519_050,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+ed25519_051,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3
+ed25519_052,Ed25519,asymmetric,very_hard,True,0.4194444444444445,0.5,0.1111111111111111,1.0,0.65,5,3
+ed25519_053,Ed25519,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,4,3
+ed25519_054,Ed25519,asymmetric,very_hard,True,0.43214285714285716,0.5,0.14285714285714285,1.0,0.65,4,3
+ed25519_055,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+ed25519_056,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,4,3
+ed25519_057,Ed25519,asymmetric,very_hard,True,0.4194444444444445,0.5,0.11111111111111112,1.0,0.65,4,3
+ed25519_058,Ed25519,asymmetric,very_hard,True,0.4234848484848485,0.5,0.12121212121212122,1.0,0.75,5,4
+ed25519_059,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.65,4,3

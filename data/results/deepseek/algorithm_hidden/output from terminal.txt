@@ -1,0 +1,1003 @@
+Processing batch 143/180 (cases 711-715)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 144/180 (cases 716-720)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 145/180 (cases 721-725)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 146/180 (cases 726-730)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 147/180 (cases 731-735)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 148/180 (cases 736-740)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 149/180 (cases 741-745)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 150/180 (cases 746-750)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 151/180 (cases 751-755)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 152/180 (cases 756-760)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 153/180 (cases 761-765)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 154/180 (cases 766-770)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 155/180 (cases 771-775)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 156/180 (cases 776-780)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 157/180 (cases 781-785)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 158/180 (cases 786-790)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 159/180 (cases 791-795)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 160/180 (cases 796-800)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 161/180 (cases 801-805)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 162/180 (cases 806-810)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 163/180 (cases 811-815)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 164/180 (cases 816-820)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 165/180 (cases 821-825)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 166/180 (cases 826-830)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 167/180 (cases 831-835)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 168/180 (cases 836-840)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 169/180 (cases 841-845)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 170/180 (cases 846-850)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 171/180 (cases 851-855)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 172/180 (cases 856-860)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 173/180 (cases 861-865)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 174/180 (cases 866-870)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 175/180 (cases 871-875)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 176/180 (cases 876-880)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 177/180 (cases 881-885)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 178/180 (cases 886-890)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 179/180 (cases 891-895)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+Processing batch 180/180 (cases 896-900)
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+INFO - Starting API call...
+INFO - Headers prepared
+INFO - Trying endpoint: https://api.deepseek.com/chat/completions
+INFO - Successful API response received
+  Successful: 5/5
+
+======================================================================
+GENERATING REPORTS AND CHARTS
+======================================================================
+ Raw results saved: C:\Users\ABU BAKAR SIDDIQUE\CRYPTO_EXPERIMENT_MULTI_AI\data\results\deepseek\algorithm_hidden\raw_results\deepseek_algorithm_hidden_raw_results_20260125_100509.json
+ CSV report saved: C:\Users\ABU BAKAR SIDDIQUE\CRYPTO_EXPERIMENT_MULTI_AI\data\results\deepseek\algorithm_hidden\algorithm_hidden_experiment_summary_20260125_100509.csv
+
+Generating 3 performance charts...
+Creating 3 performance charts for algorithm hidden experiment...
+Saved: algorithm_hidden_algorithm_identification_20260125_100509.html
+Saved: algorithm_hidden_performance_by_algorithm_20260125_100509.html
+Saved: algorithm_hidden_performance_trend_20260125_100509.html
+Created 3 charts in C:\Users\ABU BAKAR SIDDIQUE\CRYPTO_EXPERIMENT_MULTI_AI\data\results\deepseek\algorithm_hidden directory
+ Charts generated successfully!
+
+Generating summary table...
+============================================================
+ALGORITHM HIDDEN SUMMARY TABLE GENERATOR
+============================================================
+Loaded 900 test cases from: C:\Users\ABU BAKAR SIDDIQUE\CRYPTO_EXPERIMENT_MULTI_AI\data\results\deepseek\algorithm_hidden\raw_results\deepseek_algorithm_hidden_raw_results_20260125_100509.json
+SUCCESS: Algorithm hidden summary table generated!
+Output directory: C:\Users\ABU BAKAR SIDDIQUE\CRYPTO_EXPERIMENT_MULTI_AI\data\results\deepseek\algorithm_hidden
+HTML: algorithm_hidden_summary_table_20260125_100509.html
+
+======================================================================
+REPORT GENERATION COMPLETE
+======================================================================
+
+======================================================================
+DEEPSEEK ALGORITHM HIDDEN EXPERIMENT SUMMARY
+======================================================================
+
+Overall Statistics:
+  Total Tests: 900
+  Successful Analyses: 900
+  Success Rate: 100.0%
+  Overall Score: 0.411
+  Duration: 5:17:37.789735
+
+Algorithm Identification:
+  Exact Match Rate: 58.1%
+  Category Match Rate: 99.9%
+  Avg Identified_Algo_Score: 0.581
+
+Token Usage:
+  Total Input Tokens: 683,472
+  Total Output Tokens: 550,880
+  Total Tokens: 1,234,352
+  Estimated Cost: $0.2499
+  Cost per Test: $0.000278
+
+Output Files:
+  Raw Results: deepseek_algorithm_hidden_raw_results_20260125_100509.json
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+Overall Statistics:
+  Total Tests: 900
+  Successful Analyses: 900
+  Success Rate: 100.0%
+  Overall Score: 0.411
+  Duration: 5:17:37.789735
+
+Algorithm Identification:
+  Exact Match Rate: 58.1%
+  Category Match Rate: 99.9%
+  Avg Identified_Algo_Score: 0.581
+
+Token Usage:
+  Total Input Tokens: 683,472
+  Total Output Tokens: 550,880
+  Total Tokens: 1,234,352
+  Estimated Cost: $0.2499
+  Cost per Test: $0.000278
+
+Output Files:
+  Raw Results: deepseek_algorithm_hidden_raw_results_20260125_100509.json
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+  Avg Identified_Algo_Score: 0.581
+
+Token Usage:
+  Total Input Tokens: 683,472
+  Total Output Tokens: 550,880
+  Total Tokens: 1,234,352
+  Estimated Cost: $0.2499
+  Cost per Test: $0.000278
+
+Output Files:
+  Raw Results: deepseek_algorithm_hidden_raw_results_20260125_100509.json
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+  Total Input Tokens: 683,472
+  Total Output Tokens: 550,880
+  Total Tokens: 1,234,352
+  Estimated Cost: $0.2499
+  Cost per Test: $0.000278
+
+Output Files:
+  Raw Results: deepseek_algorithm_hidden_raw_results_20260125_100509.json
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+  Estimated Cost: $0.2499
+  Cost per Test: $0.000278
+
+Output Files:
+  Raw Results: deepseek_algorithm_hidden_raw_results_20260125_100509.json
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+
+Output Files:
+  Raw Results: deepseek_algorithm_hidden_raw_results_20260125_100509.json
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+Output Files:
+  Raw Results: deepseek_algorithm_hidden_raw_results_20260125_100509.json
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+  Raw Results: deepseek_algorithm_hidden_raw_results_20260125_100509.json
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+  CSV Report: algorithm_hidden_experiment_summary_20260125_100509.csv
+
+3 Chart Files:
+  1. algorithm_hidden_algorithm_identification_20260125_100509.html
+  2. algorithm_hidden_performance_by_algorithm_20260125_100509.html
+  3. algorithm_hidden_performance_trend_20260125_100509.html
+
+Experiment completed successfully!
+DeepSeek analyzed 900 ciphertexts without algorithm information.
+PS C:\Users\ABU BAKAR SIDDIQUE\CRYPTO_EXPERIMENT_MULTI_AI>

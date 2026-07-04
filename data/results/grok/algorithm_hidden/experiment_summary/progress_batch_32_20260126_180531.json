@@ -1,0 +1,8 @@
+{
+  "batch": 32,
+  "timestamp": "2026-01-26T20:53:43.809591",
+  "results_so_far": 160,
+  "cancelled": false,
+  "cancelled_reason": null,
+  "cancelled_batch": null
+}

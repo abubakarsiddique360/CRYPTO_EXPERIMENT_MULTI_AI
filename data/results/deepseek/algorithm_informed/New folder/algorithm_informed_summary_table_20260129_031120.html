@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; margin: 12px; }
+  .report-title { font-size: 18px; font-weight: 700; margin: 6px 0 10px; }
+  table.report { border-collapse: collapse; width: 100%; max-width: 1400px; }
+  table.report th, table.report td { border: 1px solid #cfcfcf; padding: 6px 8px; font-size: 13px; }
+  table.report th { background: #f0f0f0; text-align: center; font-weight: 700; }
+  table.report td { text-align: center; }
+  table.report td.left { text-align: left; }
+
+  tr.category-header td { background: #ffffff; font-weight: 700; text-align: left; }
+  tr.category-row td { background: #eef7e8; font-weight: 700; }
+
+  tr.overall-header td { background: #eef7e8; font-weight: 700; text-align: left; }
+  tr.overall-labels td { background: #e8f4fb; font-weight: 700; }
+  tr.overall-values td { background: #e8f4fb; }
+</style>
+</head><body><div class="report-title">Algorithm Informed Summary Table (deepseek)</div><table class="report"><tr><th>Algorithm</th><th>Category</th><th>Avg Score</th><th>Score Std</th><th>Test Count</th><th>Vuln Score</th><th>Decrypt Score</th><th>Reason Score</th></tr><tr><td class="left">RSA-2048</td><td>Asymmetric</td><td>0.760</td><td>N/A</td><td>1</td><td>0.500</td><td>1.000</td><td>0.900</td></tr>
+<tr><td class="left">SHA-256</td><td>Hash</td><td>0.620</td><td>N/A</td><td>1</td><td>0.300</td><td>0.000</td><td>1.000</td></tr>
+<tr><td class="left">SHA-3-256</td><td>Hash</td><td>0.620</td><td>N/A</td><td>1</td><td>0.300</td><td>0.000</td><td>1.000</td></tr>
+<tr><td class="left">BLAKE3</td><td>Hash</td><td>0.580</td><td>N/A</td><td>1</td><td>0.300</td><td>0.000</td><td>0.900</td></tr>
+<tr><td class="left">Caesar cipher</td><td>Classical</td><td>0.464</td><td>N/A</td><td>1</td><td>0.500</td><td>0.222</td><td>1.000</td></tr>
+<tr><td class="left">Substitution cipher</td><td>Classical</td><td>0.425</td><td>N/A</td><td>1</td><td>0.500</td><td>0.125</td><td>1.000</td></tr>
+<tr><td class="left">AES-CTR</td><td>Modern_symmetric</td><td>0.425</td><td>N/A</td><td>1</td><td>0.500</td><td>0.125</td><td>1.000</td></tr>
+<tr><td class="left">Ed25519</td><td>Asymmetric</td><td>0.375</td><td>N/A</td><td>1</td><td>0.500</td><td>0.000</td><td>1.000</td></tr>
+<tr><td class="left">Vigenère cipher</td><td>Classical</td><td>0.375</td><td>N/A</td><td>1</td><td>0.500</td><td>0.000</td><td>1.000</td></tr>
+<tr><td class="left">AES-CBC</td><td>Modern_symmetric</td><td>0.375</td><td>N/A</td><td>1</td><td>0.500</td><td>0.000</td><td>1.000</td></tr>
+<tr><td class="left">AES-GCM</td><td>Modern_symmetric</td><td>0.375</td><td>N/A</td><td>1</td><td>0.500</td><td>0.000</td><td>1.000</td></tr>
+<tr><td class="left">RSA-4096</td><td>Asymmetric</td><td>0.360</td><td>N/A</td><td>1</td><td>0.500</td><td>0.000</td><td>0.900</td></tr>
+<tr><td class="left">ChaCha20-Poly1305</td><td>Modern_symmetric</td><td>0.360</td><td>N/A</td><td>1</td><td>0.500</td><td>0.000</td><td>0.900</td></tr>
+<tr><td class="left">ECDSA (P-256)</td><td>Asymmetric</td><td>0.360</td><td>N/A</td><td>1</td><td>0.500</td><td>0.000</td><td>0.900</td></tr>
+<tr><td class="left">AES-ECB</td><td>Modern_symmetric</td><td>0.225</td><td>N/A</td><td>1</td><td>0.000</td><td>0.125</td><td>1.000</td></tr><tr class="category-header"><td class="left" colspan="8">CATEGORY SUMMARY</td></tr><tr class="category-row"><td></td><td class="left">Asymmetric</td><td>0.464</td><td>0.198</td><td>4</td><td>0.500</td><td>0.250</td><td>0.925</td></tr>
+<tr class="category-row"><td></td><td class="left">Classical</td><td>0.421</td><td>0.045</td><td>3</td><td>0.500</td><td>0.116</td><td>1.000</td></tr>
+<tr class="category-row"><td></td><td class="left">Hash</td><td>0.607</td><td>0.023</td><td>3</td><td>0.300</td><td>0.000</td><td>0.967</td></tr>
+<tr class="category-row"><td></td><td class="left">Modern_symmetric</td><td>0.352</td><td>0.075</td><td>5</td><td>0.400</td><td>0.050</td><td>0.980</td></tr><tr class="overall-header"><td class="left" colspan="8">OVERALL SUMMARY</td></tr><tr class="overall-labels"><td>Total Tests</td><td>Successful Analyses</td><td>Overall Score</td><td>Score Std Avg</td><td>Success Rate</td><td>Vuln Score Avg</td><td>Decrypt Score Avg</td><td>Reason Score Avg</td></tr><tr class="overall-values"><td>15</td><td>15</td><td>0.447</td><td>0.139</td><td>100.0%</td><td>0.427</td><td>0.106</td><td>0.967</td></tr></table></body></html>

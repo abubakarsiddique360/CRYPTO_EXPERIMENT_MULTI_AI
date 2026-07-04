@@ -1,0 +1,15 @@
+﻿cff-version: 1.2.0
+message: "If you use this software in your research, please cite it."
+title: "Multi-AI Cryptanalysis Experiment Suite"
+type: experiment for cryptanalysis using multiple AI models
+authors:
+  - family-names: "Siddique"
+    given-names: "Abu Bakar"
+    
+  - family-names: "Li"
+    given-names: "ShanChang"
+date-released: "2026-01-18"
+version: "0.1.0"
+url: "https://github.com/abubakarsiddique360/CRYPTO_EXPERIMENT_MULTI_AI"
+license: MIT
+repository-code: "https://github.com/abubakarsiddique360/CRYPTO_EXPERIMENT_MULTI_AI"

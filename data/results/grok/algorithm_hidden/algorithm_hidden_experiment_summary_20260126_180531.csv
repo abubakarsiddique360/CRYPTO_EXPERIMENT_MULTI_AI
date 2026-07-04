@@ -1,0 +1,901 @@
+test_id,algorithm,original_category,identified_category_by_AI,identified_category_score,identified_algorithm_by_AI,identified_algorithm_score,response_success,overall_score,vulnerability_score,decryption_score,reasoning_score,confidence,suggested_attacks_count,vulnerabilities_count,exact_match,category_match
+test_001,Substitution cipher,classical,modern symmetric,0.0,AES-ECB,0.0,True,0.11,0.1,0.0,1.0,0.95,3,3,False,False
+test_002,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-CBC,0.0,True,0.11,0.1,0.0,1.0,0.9,3,3,False,True
+test_003,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.65,0.5,0.0,1.0,0.95,3,1,True,True
+test_004,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.093,0.1,0.0,0.833,0.95,2,2,False,True
+test_005,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.633,0.4,0.0,0.929,0.95,3,2,True,True
+test_006,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.592,0.0,0.0,0.917,0.95,3,2,True,True
+test_007,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.59,0.0,0.0,0.9,1.0,3,1,True,True
+test_008,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,1,False,True
+test_009,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,1,0,True,True
+test_010,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.085,0.1,0.0,0.75,0.95,2,1,False,True
+test_011,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.64,0.467,0.0,0.938,0.9,4,4,True,True
+test_012,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.599,0.2,0.0,0.786,1.0,2,0,True,True
+test_013,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.594,0.0,0.0,0.938,1.0,4,3,True,True
+test_014,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.102,0.1,0.0,0.917,0.95,3,3,False,True
+test_015,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.606,0.2,0.0,0.857,0.95,2,0,True,True
+test_016,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_017,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.646,0.2,0.111,0.929,0.95,0,0,True,True
+test_018,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_019,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.594,0.0,0.0,0.944,0.95,4,3,True,True
+test_020,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.673,0.3,0.143,1.0,0.92,3,3,True,True
+test_021,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.102,0.1,0.0,0.917,0.95,3,1,False,True
+test_022,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.61,0.2,0.0,0.9,0.95,2,0,True,True
+test_023,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.659,0.4,0.083,0.938,0.9,3,2,True,True
+test_024,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.583,0.0,0.0,0.833,0.95,3,3,True,True
+test_025,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.1,0.1,0.0,0.9,0.95,5,3,False,True
+test_026,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.612,0.2,0.0,0.917,0.95,2,0,True,True
+test_027,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.657,0.567,0.0,1.0,0.92,5,3,True,True
+test_028,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.95,3,1,False,True
+test_029,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.62,0.2,0.0,1.0,0.95,3,0,True,True
+test_030,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,1,False,True
+test_031,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.763,0.133,0.5,1.0,0.95,3,3,True,True
+test_032,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.69,0.9,0.0,1.0,0.9,4,4,True,True
+test_033,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.092,0.0,0.0,0.917,0.95,3,0,False,True
+test_034,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.606,0.133,0.0,0.929,1.0,3,3,True,True
+test_035,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.603,0.2,0.0,0.833,0.95,3,0,True,True
+test_036,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_037,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.98,3,2,False,True
+test_038,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.761,0.3,0.462,0.929,0.9,4,3,True,True
+test_039,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.613,0.2,0.0,0.929,1.0,4,0,True,True
+test_040,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.096,0.1,0.0,0.857,0.9,3,3,False,True
+test_041,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.633,0.4,0.0,0.929,0.95,3,2,True,True
+test_042,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,3,True,True
+test_043,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,3,True,True
+test_044,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.616,0.3,0.0,0.857,0.95,3,3,True,True
+test_045,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.657,0.567,0.0,1.0,0.95,3,3,True,True
+test_046,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.69,0.9,0.0,1.0,0.92,3,3,True,True
+test_047,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.612,0.2,0.0,0.917,0.95,3,0,True,True
+test_048,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.684,0.9,0.0,0.938,0.95,3,3,True,True
+test_049,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.9,0.0,1.0,1.0,1.0,3,3,True,True
+test_050,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.6,0.0,0.0,1.0,0.95,2,1,True,True
+test_051,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.9,3,3,False,False
+test_052,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.684,0.9,0.0,0.938,0.95,3,3,True,True
+test_053,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_054,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.606,0.2,0.0,0.857,0.92,4,4,True,True
+test_055,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_056,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.642,0.567,0.0,0.857,0.92,3,3,True,True
+test_057,Substitution cipher,classical,classical,1.0,Vigenère cipher,0.0,True,0.102,0.1,0.0,0.917,0.95,4,3,False,True
+test_058,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_059,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.606,0.2,0.0,0.857,0.95,5,4,True,True
+test_060,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_061,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.119,0.0,0.091,0.917,0.98,0,0,False,True
+test_062,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.09,0.0,0.0,0.9,0.95,3,0,False,True
+test_063,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,2,1,False,True
+test_064,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.096,0.1,0.0,0.857,0.92,4,3,False,True
+test_065,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.879,0.0,1.0,0.786,1.0,3,3,True,True
+test_066,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.104,0.1,0.0,0.938,0.95,2,1,False,True
+test_067,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.875,0.0,1.0,0.75,1.0,2,3,True,True
+test_068,Substitution cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.104,0.1,0.0,0.938,0.85,2,1,False,False
+test_069,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.633,0.0,0.111,1.0,0.95,3,2,True,True
+test_070,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.608,0.2,0.0,0.875,1.0,2,0,True,True
+test_071,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.69,0.9,0.0,1.0,0.95,3,2,True,True
+test_072,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.08,0.0,0.0,0.8,1.0,2,0,False,True
+test_073,AES-CTR,modern_symmetric,unknown,0.0,unknown,0.0,True,0.0,0.0,0.0,0.0,0.5,0,0,False,False
+test_074,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.7,1.0,0.0,1.0,0.95,3,1,True,True
+test_075,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_076,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.616,0.3,0.0,0.857,0.95,3,3,True,True
+test_077,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_078,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.592,0.0,0.0,0.917,1.0,2,1,True,True
+test_079,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.089,0.0,0.0,0.889,0.95,3,0,False,True
+test_080,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.913,0.133,1.0,1.0,1.0,2,3,True,True
+test_081,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,2,True,True
+test_082,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.612,0.2,0.0,0.917,0.95,2,0,True,True
+test_083,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.592,0.0,0.0,0.917,1.0,3,1,True,True
+test_084,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.606,0.2,0.0,0.857,0.95,3,0,True,True
+test_085,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.589,0.033,0.0,0.857,0.95,4,5,True,True
+test_086,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.134,0.1,0.143,0.812,0.95,3,1,False,True
+test_087,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.093,0.1,0.0,0.833,0.95,4,3,False,True
+test_088,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.9,3,3,False,False
+test_089,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.09,0.1,0.0,0.8,0.95,2,1,False,True
+test_090,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.104,0.1,0.0,0.938,0.95,2,2,False,True
+test_091,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.684,0.9,0.0,0.938,0.95,3,3,True,True
+test_092,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,2,True,True
+test_093,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_094,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.104,0.1,0.0,0.938,1.0,3,2,False,True
+test_095,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.606,0.133,0.0,0.929,0.95,3,3,True,True
+test_096,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.613,0.133,0.0,1.0,0.95,3,3,True,True
+test_097,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.152,0.1,0.222,0.75,0.95,4,4,False,True
+test_098,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.643,0.5,0.0,0.929,1.0,2,1,True,True
+test_099,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.612,0.2,0.0,0.917,1.0,2,0,True,True
+test_100,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.168,0.1,0.222,0.917,0.95,3,2,False,True
+test_101,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.624,0.0,0.143,0.812,1.0,4,3,True,True
+test_102,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.092,0.0,0.0,0.917,0.95,3,0,False,True
+test_103,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,1,False,True
+test_104,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.103,0.1,0.0,0.929,0.92,2,2,False,True
+test_105,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.398,0.1,1.0,0.875,1.0,4,4,False,True
+test_106,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.603,0.2,0.0,0.833,1.0,2,0,True,True
+test_107,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.085,0.1,0.0,0.75,0.95,5,4,False,True
+test_108,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.112,0.1,0.091,0.75,0.92,5,4,False,True
+test_109,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.103,0.1,0.0,0.929,0.95,5,4,False,True
+test_110,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.983,1.0,1.0,0.833,1.0,2,3,True,True
+test_111,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,2,False,True
+test_112,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.893,0.3,1.0,0.625,1.0,4,3,True,True
+test_113,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.913,0.133,1.0,1.0,1.0,2,3,True,True
+test_114,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.712,0.3,0.273,1.0,0.9,3,3,True,True
+test_115,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.583,0.0,0.0,0.833,0.9,3,3,True,True
+test_116,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.606,0.2,0.0,0.857,1.0,2,0,True,True
+test_117,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.589,0.0,0.0,0.889,1.0,3,1,True,True
+test_118,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.592,0.0,0.0,0.917,1.0,3,2,True,True
+test_119,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.615,0.0,0.077,0.917,1.0,3,1,True,True
+test_120,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.104,0.1,0.0,0.938,0.9,2,1,False,False
+test_121,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,0.98,2,0,True,True
+test_122,Caesar cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.103,0.1,0.0,0.929,0.95,3,3,False,False
+test_123,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.145,0.1,0.143,0.917,0.9,3,3,False,False
+test_124,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.104,0.1,0.0,0.938,0.95,3,2,False,True
+test_125,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.892,0.133,1.0,0.786,1.0,3,3,True,True
+test_126,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.612,0.2,0.0,0.917,0.95,2,0,True,True
+test_127,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.593,0.0,0.0,0.929,1.0,2,1,True,True
+test_128,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.892,0.3,1.0,0.615,1.0,4,3,True,True
+test_129,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.62,0.3,0.0,0.9,0.95,3,3,True,True
+test_130,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.096,0.1,0.0,0.857,1.0,3,1,False,True
+test_131,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_132,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.888,0.133,1.0,0.75,1.0,2,3,True,True
+test_133,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.185,0.1,0.25,1.0,0.95,3,3,False,False
+test_134,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,4,3,True,True
+test_135,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.603,0.2,0.0,0.833,0.95,2,0,True,True
+test_136,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.583,0.0,0.0,0.833,1.0,3,2,True,True
+test_137,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.613,0.2,0.0,0.929,1.0,2,0,True,True
+test_138,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.592,0.0,0.0,0.917,1.0,3,2,True,True
+test_139,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.622,0.3,0.0,0.917,0.92,3,3,True,True
+test_140,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.692,1.0,0.0,0.917,0.9,2,2,True,True
+test_141,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.672,0.8,0.0,0.917,0.95,3,3,True,True
+test_142,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_143,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.633,0.4,0.0,0.929,0.95,3,2,True,True
+test_144,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.66,0.3,0.182,0.75,0.95,4,3,True,True
+test_145,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_146,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.091,0.1,0.0,0.812,0.95,3,2,False,True
+test_147,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.092,0.0,0.0,0.917,0.95,2,0,False,True
+test_148,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_149,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.603,0.033,0.0,1.0,0.95,4,4,True,True
+test_150,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_151,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.692,1.0,0.0,0.917,0.9,3,2,True,True
+test_152,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.612,0.2,0.0,0.917,0.95,3,0,True,True
+test_153,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-CBC,0.0,True,0.103,0.1,0.0,0.929,0.92,3,3,False,True
+test_154,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.593,0.0,0.0,0.929,0.95,3,2,True,True
+test_155,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.593,0.0,0.0,0.929,0.98,3,1,True,True
+test_156,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.63,0.4,0.0,0.9,1.0,2,2,True,True
+test_157,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.68,1.0,0.0,0.8,0.95,3,2,True,True
+test_158,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_159,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.63,0.3,0.0,1.0,0.9,4,3,True,True
+test_160,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_161,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.693,0.8,0.091,0.857,0.95,3,3,True,True
+test_162,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_163,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,3,True,True
+test_164,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.883,0.0,1.0,0.833,1.0,3,3,True,True
+test_165,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,0,0,True,True
+test_166,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,1,1,False,True
+test_167,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.601,0.2,0.0,0.812,0.95,4,4,True,True
+test_168,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.62,0.2,0.0,1.0,0.95,3,0,True,True
+test_169,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.65,0.233,0.111,0.929,1.0,4,2,True,True
+test_170,Caesar cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.75,3,2,False,False
+test_171,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,3,True,True
+test_172,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.09,0.1,0.0,0.8,0.95,3,2,False,True
+test_173,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.603,0.2,0.0,0.833,1.0,3,0,True,True
+test_174,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.606,0.2,0.0,0.857,0.95,4,4,True,True
+test_175,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.613,0.3,0.0,0.833,0.95,4,3,True,True
+test_176,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.592,0.0,0.0,0.917,0.95,3,2,True,True
+test_177,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.088,0.0,0.0,0.875,0.95,3,0,False,True
+test_178,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.615,0.3,0.0,0.85,0.95,4,3,True,True
+test_179,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.63,0.3,0.0,1.0,0.9,3,3,True,True
+test_180,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,2,0,True,True
+test_181,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.872,0.0,1.0,0.722,1.0,4,3,True,True
+test_182,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_183,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.891,0.133,1.0,0.775,1.0,2,3,True,True
+test_184,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.692,1.0,0.0,0.917,1.0,3,3,True,True
+test_185,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.682,0.9,0.0,0.917,0.98,3,3,True,True
+test_186,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.613,0.133,0.0,1.0,0.9,3,3,True,True
+test_187,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.588,0.0,0.0,0.875,1.0,3,2,True,True
+test_188,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_189,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.676,0.9,0.0,0.857,0.92,3,3,True,True
+test_190,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.63,0.3,0.0,1.0,0.9,3,3,True,True
+test_191,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.59,0.0,0.0,0.9,1.0,3,2,True,True
+test_192,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.632,0.4,0.0,0.917,0.95,3,2,True,True
+test_193,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_194,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.093,0.0,0.0,0.929,0.95,3,0,False,True
+test_195,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,2,True,True
+test_196,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,1.0,3,1,False,True
+test_197,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.675,0.567,0.083,0.929,0.95,3,3,True,True
+test_198,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.597,0.133,0.0,0.833,0.9,4,3,True,True
+test_199,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.61,0.2,0.0,0.9,1.0,2,0,True,True
+test_200,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,1.0,2,0,True,True
+test_201,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.143,0.0,0.143,1.0,0.98,3,0,False,True
+test_202,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.98,3,2,False,True
+test_203,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,3,False,True
+test_204,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.592,0.0,0.0,0.917,1.0,3,3,True,True
+test_205,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.586,0.0,0.0,0.857,0.95,3,3,True,True
+test_206,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.09,0.0,0.0,0.9,1.0,2,0,False,True
+test_207,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.926,0.4,1.0,0.857,1.0,3,2,True,True
+test_208,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.7,1.0,0.0,1.0,0.95,4,2,True,True
+test_209,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.613,0.2,0.0,0.929,1.0,1,0,True,True
+test_210,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,2,False,True
+test_211,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.895,0.2,1.0,0.75,1.0,4,4,True,True
+test_212,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,2,1,True,True
+test_213,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.093,0.1,0.0,0.833,0.95,3,3,False,True
+test_214,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.644,0.567,0.0,0.875,0.95,3,3,True,True
+test_215,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.093,0.1,0.0,0.833,0.95,2,2,False,True
+test_216,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.103,0.1,0.0,0.929,0.95,3,1,False,True
+test_217,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.703,0.3,0.273,0.917,0.95,4,4,True,True
+test_218,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,0.99,3,2,True,True
+test_219,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,1,False,True
+test_220,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.68,0.3,0.222,0.833,0.92,4,3,True,True
+test_221,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.083,0.0,0.0,0.833,0.98,2,0,False,True
+test_222,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.675,1.0,0.0,0.75,0.95,3,2,True,True
+test_223,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_224,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.947,0.9,1.0,0.571,1.0,4,4,True,True
+test_225,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.65,0.5,0.0,1.0,0.95,2,1,True,True
+test_226,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.632,0.467,0.0,0.857,0.95,4,4,True,True
+test_227,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,3,1,False,True
+test_228,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.606,0.133,0.0,0.929,0.85,4,3,True,True
+test_229,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.632,0.4,0.0,0.917,1.0,3,2,True,True
+test_230,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.098,0.1,0.0,0.875,0.92,3,2,False,True
+test_231,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.592,0.0,0.0,0.917,1.0,3,2,True,True
+test_232,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.59,0.0,0.0,0.9,0.95,3,1,True,True
+test_233,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.594,0.0,0.0,0.938,0.92,3,2,True,True
+test_234,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_235,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.695,0.2,0.25,1.0,1.0,1,0,True,True
+test_236,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.905,0.133,1.0,0.917,1.0,3,3,True,True
+test_237,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.583,0.0,0.0,0.833,1.0,3,2,True,True
+test_238,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.103,0.1,0.0,0.929,0.95,2,2,False,True
+test_239,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.69,0.9,0.0,1.0,0.95,3,2,True,True
+test_240,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.592,0.0,0.0,0.917,1.0,3,3,True,True
+test_241,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.62,0.2,0.0,1.0,1.0,0,0,True,True
+test_242,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.619,0.3,0.0,0.889,0.95,3,3,True,True
+test_243,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,True
+test_244,Substitution cipher,classical,classical,1.0,Vigenère cipher,0.0,True,0.093,0.1,0.0,0.833,0.9,4,4,False,True
+test_245,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.102,0.1,0.0,0.917,0.95,3,1,False,True
+test_246,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.103,0.1,0.0,0.929,0.95,3,1,False,True
+test_247,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,1.0,3,2,False,True
+test_248,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.395,0.1,1.0,0.85,1.0,4,5,False,True
+test_249,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.635,0.0,0.143,0.917,1.0,3,2,True,True
+test_250,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,1.0,2,0,True,True
+test_251,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.613,0.2,0.0,0.929,0.95,3,0,True,True
+test_252,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.99,3,2,False,True
+test_253,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.59,0.0,0.0,0.9,1.0,3,2,True,True
+test_254,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.614,0.2,0.0,0.938,0.95,3,0,True,True
+test_255,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.1,0.1,0.0,0.9,0.85,4,3,False,True
+test_256,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.103,0.1,0.0,0.929,0.95,5,4,False,True
+test_257,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.143,0.1,0.111,1.0,0.95,3,1,False,True
+test_258,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.618,0.3,0.0,0.875,0.95,3,3,True,True
+test_259,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.626,0.4,0.0,0.857,1.0,4,2,True,True
+test_260,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.68,0.8,0.0,1.0,0.95,3,3,True,True
+test_261,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.904,0.3,1.0,0.737,1.0,5,3,True,True
+test_262,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_263,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.641,0.3,0.091,0.833,0.9,4,3,True,True
+test_264,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.592,0.0,0.0,0.917,0.9,3,2,True,True
+test_265,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.683,0.9,0.0,0.929,0.95,3,3,True,True
+test_266,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.783,0.9,0.333,0.929,0.95,3,2,True,True
+test_267,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.63,0.3,0.0,1.0,0.92,3,3,True,True
+test_268,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_269,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.62,0.2,0.0,1.0,0.95,3,0,True,True
+test_270,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,3,True,True
+test_271,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,2,False,True
+test_272,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.622,0.3,0.0,0.917,0.95,2,3,True,True
+test_273,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.093,0.1,0.0,0.833,0.95,3,3,False,True
+test_274,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.612,0.2,0.0,0.917,1.0,4,0,True,True
+test_275,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.092,0.0,0.0,0.917,0.95,3,0,False,True
+test_276,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_277,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.95,4,2,False,True
+test_278,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.614,0.2,0.0,0.938,0.98,2,0,True,True
+test_279,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.906,0.2,1.0,0.857,1.0,4,4,True,True
+test_280,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.632,0.4,0.0,0.917,1.0,3,2,True,True
+test_281,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.642,0.5,0.0,0.917,0.95,3,1,True,True
+test_282,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.612,0.2,0.0,0.917,1.0,2,0,True,True
+test_283,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.11,0.1,0.0,1.0,0.95,2,1,False,True
+test_284,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.583,0.0,0.0,0.833,0.95,3,1,True,True
+test_285,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.637,0.2,0.083,0.917,1.0,1,0,True,True
+test_286,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.613,0.3,0.0,0.833,1.0,3,3,True,True
+test_287,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.642,0.5,0.0,0.917,1.0,2,1,True,True
+test_288,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.692,1.0,0.0,0.917,0.95,3,2,True,True
+test_289,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.692,1.0,0.0,0.917,0.95,2,2,True,True
+test_290,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.65,0.5,0.0,1.0,0.95,3,1,True,True
+test_291,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.402,0.1,1.0,0.917,1.0,4,3,False,True
+test_292,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.657,0.4,0.083,0.917,1.0,2,2,True,True
+test_293,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.612,0.2,0.0,0.917,1.0,3,0,True,True
+test_294,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.592,0.0,0.0,0.917,1.0,3,2,True,True
+test_295,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,3,2,False,True
+test_296,AES-ECB,modern_symmetric,unknown,0.0,unknown,0.0,True,0.0,0.0,0.0,0.0,0.5,0,0,False,False
+test_297,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.883,0.0,1.0,0.833,1.0,2,2,True,True
+test_298,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.092,0.0,0.0,0.917,0.95,2,0,False,True
+test_299,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.103,0.1,0.0,0.929,0.98,3,2,False,True
+test_300,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.603,0.033,0.0,1.0,0.85,4,4,True,True
+test_301,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_302,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.618,0.3,0.0,0.875,0.92,3,3,True,True
+test_303,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.683,1.0,0.0,0.833,0.98,4,2,True,True
+test_304,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.6,0.0,0.0,1.0,0.95,3,3,True,True
+test_305,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.586,0.0,0.0,0.857,0.9,3,2,True,True
+test_306,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.589,0.033,0.0,0.857,0.95,4,4,True,True
+test_307,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,3,2,False,True
+test_308,Substitution cipher,classical,classical,1.0,Vigenère cipher,0.0,True,0.102,0.1,0.0,0.917,0.85,5,4,False,True
+test_309,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.612,0.2,0.0,0.917,1.0,2,0,True,True
+test_310,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-CBC,0.0,True,0.11,0.1,0.0,1.0,0.75,3,3,False,True
+test_311,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.667,0.3,0.125,1.0,0.95,4,3,True,True
+test_312,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.613,0.0,0.083,0.875,0.95,3,3,True,True
+test_313,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.632,0.4,0.0,0.917,1.0,2,2,True,True
+test_314,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.983,1.0,1.0,0.833,1.0,3,3,True,True
+test_315,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.613,0.2,0.0,0.929,1.0,3,0,True,True
+test_316,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.612,0.2,0.0,0.917,1.0,3,0,True,True
+test_317,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,3,3,False,True
+test_318,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.613,0.2,0.0,0.929,0.99,3,0,True,True
+test_319,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.134,0.1,0.143,0.812,0.95,4,3,False,True
+test_320,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.901,0.3,1.0,0.714,1.0,4,3,True,True
+test_321,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_322,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.583,0.0,0.0,0.833,0.9,2,2,True,True
+test_323,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.692,1.0,0.0,0.917,1.0,3,2,True,True
+test_324,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.09,0.0,0.0,0.9,0.95,2,0,False,True
+test_325,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_326,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.623,0.233,0.0,1.0,1.0,4,2,True,True
+test_327,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.62,0.2,0.0,1.0,0.98,3,0,True,True
+test_328,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,2,2,False,True
+test_329,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.62,0.2,0.0,1.0,1.0,2,0,True,True
+test_330,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.624,0.467,0.0,0.773,1.0,4,4,True,True
+test_331,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.613,0.2,0.0,0.929,1.0,2,0,True,True
+test_332,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.09,0.1,0.0,0.8,1.0,2,1,False,True
+test_333,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.586,0.0,0.0,0.857,0.95,3,3,True,True
+test_334,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_335,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.592,0.0,0.0,0.917,1.0,2,1,True,True
+test_336,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.59,0.0,0.0,0.9,1.0,3,1,True,True
+test_337,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.178,0.1,0.273,0.857,0.92,4,4,False,True
+test_338,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.69,0.9,0.0,1.0,0.95,3,3,True,True
+test_339,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.68,0.8,0.0,1.0,0.95,3,3,True,True
+test_340,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.623,0.3,0.0,0.929,0.92,5,3,True,True
+test_341,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,1.0,2,1,False,True
+test_342,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_343,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,3,3,True,True
+test_344,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.63,0.133,0.077,0.938,0.85,3,3,True,True
+test_345,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.937,0.567,1.0,0.8,1.0,3,3,True,True
+test_346,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.08,0.1,0.0,0.7,0.95,5,3,False,True
+test_347,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.624,0.3,0.0,0.938,0.92,3,3,True,True
+test_348,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.583,0.0,0.0,0.833,1.0,4,2,True,True
+test_349,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.62,0.2,0.0,1.0,0.95,3,0,True,True
+test_350,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.586,0.0,0.0,0.857,0.95,2,2,True,True
+test_351,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.09,0.0,0.0,0.9,0.98,3,0,False,True
+test_352,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_353,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_354,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.077,0.1,0.0,0.667,0.95,4,3,False,True
+test_355,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.613,0.2,0.0,0.929,1.0,3,0,True,True
+test_356,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.586,0.0,0.0,0.857,0.95,5,4,True,True
+test_357,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.608,0.2,0.0,0.875,1.0,3,0,True,True
+test_358,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.588,0.0,0.0,0.875,1.0,3,2,True,True
+test_359,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.594,0.0,0.0,0.938,1.0,4,2,True,True
+test_360,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.626,0.4,0.0,0.857,0.95,3,2,True,True
+test_361,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.6,0.0,0.0,1.0,0.95,4,2,True,True
+test_362,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.69,0.9,0.0,1.0,0.95,2,2,True,True
+test_363,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,1,False,True
+test_364,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.613,0.3,0.0,0.833,0.95,3,3,True,True
+test_365,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.612,0.2,0.0,0.917,1.0,3,0,True,True
+test_366,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.643,0.0,0.143,1.0,1.0,3,3,True,True
+test_367,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.104,0.1,0.0,0.938,0.95,3,1,False,True
+test_368,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.618,0.3,0.0,0.875,0.95,3,3,True,True
+test_369,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_370,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.61,0.2,0.0,0.9,1.0,2,0,True,True
+test_371,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-CBC,0.0,True,0.093,0.1,0.0,0.833,0.9,3,3,False,True
+test_372,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.614,0.2,0.0,0.944,1.0,3,0,True,True
+test_373,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.61,0.2,0.0,0.9,0.95,2,0,True,True
+test_374,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.692,1.0,0.0,0.917,1.0,3,2,True,True
+test_375,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,3,True,True
+test_376,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,3,True,True
+test_377,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.077,0.1,0.0,0.667,0.95,4,3,False,True
+test_378,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_379,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.102,0.1,0.0,0.917,0.75,4,4,False,True
+test_380,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.625,0.0,0.111,0.917,1.0,3,2,True,True
+test_381,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.9,3,2,False,True
+test_382,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.64,0.467,0.0,0.938,0.95,4,4,True,True
+test_383,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.094,0.0,0.0,0.938,0.95,2,0,False,True
+test_384,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.618,0.3,0.0,0.875,0.95,4,3,True,True
+test_385,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.609,0.233,0.0,0.857,0.9,3,2,True,True
+test_386,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.103,0.1,0.0,0.929,0.95,3,1,False,True
+test_387,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.096,0.1,0.0,0.857,0.95,2,2,False,True
+test_388,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.083,0.0,0.0,0.833,0.95,2,0,False,True
+test_389,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.085,0.1,0.0,0.75,0.95,2,1,False,True
+test_390,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.63,0.3,0.0,1.0,0.9,3,3,True,True
+test_391,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_392,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.613,0.2,0.0,0.929,1.0,4,0,True,True
+test_393,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,1,False,True
+test_394,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,2,2,False,True
+test_395,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.69,0.9,0.0,1.0,0.95,3,3,True,True
+test_396,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_397,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.613,0.2,0.0,0.929,1.0,2,0,True,True
+test_398,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.09,0.0,0.0,0.9,1.0,2,0,False,True
+test_399,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.61,0.2,0.0,0.9,1.0,2,0,True,True
+test_400,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.616,0.3,0.0,0.857,0.95,3,3,True,True
+test_401,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,0.95,2,0,True,True
+test_402,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.69,1.0,0.0,0.9,0.95,3,2,True,True
+test_403,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_404,AES-ECB,modern_symmetric,unknown,0.0,unknown,0.0,True,0.0,0.0,0.0,0.0,0.5,0,0,False,False
+test_405,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.642,0.5,0.0,0.917,1.0,2,1,True,True
+test_406,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,2,True,True
+test_407,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_408,Substitution cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.185,0.1,0.25,1.0,0.85,2,2,False,False
+test_409,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.613,0.2,0.0,0.929,0.95,3,0,True,True
+test_410,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.85,3,3,True,True
+test_411,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.586,0.0,0.0,0.857,0.95,3,3,True,True
+test_412,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.624,0.3,0.0,0.938,0.9,4,3,True,True
+test_413,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.093,0.1,0.0,0.833,0.95,3,1,False,True
+test_414,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_415,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.61,0.2,0.0,0.9,0.95,2,0,True,True
+test_416,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.601,0.133,0.0,0.875,0.9,3,3,True,True
+test_417,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.85,2,2,True,True
+test_418,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,2,False,True
+test_419,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.592,0.0,0.0,0.917,0.99,2,2,True,True
+test_420,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.95,3,3,False,True
+test_421,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,1.0,0,0,True,True
+test_422,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.68,0.8,0.0,1.0,0.92,3,3,True,True
+test_423,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.09,0.1,0.0,0.8,0.95,3,3,False,True
+test_424,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.95,0.567,1.0,0.929,1.0,2,3,True,True
+test_425,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.632,0.4,0.0,0.917,1.0,3,2,True,True
+test_426,Substitution cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,False
+test_427,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.68,0.9,0.0,0.9,0.95,3,3,True,True
+test_428,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,2,1,False,True
+test_429,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,1,False,True
+test_430,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.733,1.333,0.0,1.0,1.0,3,4,True,True
+test_431,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.608,0.2,0.0,0.875,1.0,1,0,True,True
+test_432,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,0.98,2,0,True,True
+test_433,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.586,0.0,0.0,0.857,1.0,4,3,True,True
+test_434,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,1,True,True
+test_435,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.089,0.1,0.0,0.786,0.9,5,3,False,True
+test_436,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,True
+test_437,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.583,0.0,0.0,0.833,0.9,3,3,True,True
+test_438,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.093,0.1,0.0,0.833,0.95,5,4,False,True
+test_439,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.62,0.2,0.0,1.0,1.0,2,0,True,True
+test_440,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.59,0.0,0.0,0.9,1.0,3,2,True,True
+test_441,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.719,1.333,0.0,0.857,1.0,3,4,True,True
+test_442,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.079,0.0,0.0,0.786,0.95,2,0,False,True
+test_443,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_444,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.895,0.3,1.0,0.654,1.0,4,3,True,True
+test_445,Vigenère cipher,classical,modern symmetric,0.0,AES-ECB,0.0,True,0.11,0.1,0.0,1.0,0.85,3,3,False,False
+test_446,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.612,0.2,0.0,0.917,1.0,2,0,True,True
+test_447,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.61,0.3,0.0,0.8,0.95,3,3,True,True
+test_448,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.375,0.1,1.0,0.654,1.0,4,3,False,True
+test_449,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_450,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.624,0.3,0.0,0.938,0.95,3,3,True,True
+test_451,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,3,3,True,True
+test_452,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.65,0.567,0.0,0.929,0.95,3,3,True,True
+test_453,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.096,0.1,0.0,0.857,0.95,4,3,False,True
+test_454,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.593,0.0,0.0,0.929,0.95,3,3,True,True
+test_455,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.64,0.5,0.0,0.9,0.95,2,1,True,True
+test_456,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.618,0.3,0.0,0.875,0.95,4,3,True,True
+test_457,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_458,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.593,0.0,0.0,0.929,1.0,2,2,True,True
+test_459,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,1.0,2,0,True,True
+test_460,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.129,0.1,0.125,0.812,0.95,5,3,False,True
+test_461,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.69,0.9,0.0,1.0,0.95,3,2,True,True
+test_462,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.091,0.1,0.0,0.812,0.95,4,4,False,True
+test_463,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.091,0.1,0.0,0.812,0.92,4,3,False,True
+test_464,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.583,0.0,0.0,0.833,1.0,3,2,True,True
+test_465,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.634,0.4,0.0,0.938,1.0,3,2,True,True
+test_466,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.622,0.3,0.0,0.917,0.95,4,3,True,True
+test_467,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.599,0.2,0.0,0.786,0.95,5,4,True,True
+test_468,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.592,0.0,0.0,0.917,0.95,3,2,True,True
+test_469,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.67,0.467,0.077,1.0,0.95,4,4,True,True
+test_470,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.9,3,3,True,True
+test_471,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.698,0.8,0.083,0.929,0.92,3,3,True,True
+test_472,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.613,0.3,0.0,0.833,0.92,4,3,True,True
+test_473,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_474,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.086,0.0,0.0,0.857,0.95,3,0,False,True
+test_475,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.69,0.9,0.0,1.0,0.95,4,4,True,True
+test_476,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,3,2,False,True
+test_477,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.64,0.4,0.0,1.0,1.0,3,2,True,True
+test_478,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.62,0.2,0.0,1.0,0.98,2,0,True,True
+test_479,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.6,0.0,0.0,1.0,0.95,3,1,True,True
+test_480,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.143,0.1,0.111,1.0,0.95,4,3,False,True
+test_481,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.609,0.2,0.0,0.889,1.0,3,0,True,True
+test_482,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.093,0.1,0.0,0.833,1.0,2,2,False,True
+test_483,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.645,0.133,0.125,0.938,0.9,3,3,True,True
+test_484,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_485,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.9,3,2,False,True
+test_486,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.623,0.3,0.0,0.929,0.95,4,4,True,True
+test_487,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.088,0.1,0.0,0.775,0.95,2,2,False,True
+test_488,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.6,0.2,0.0,0.8,1.0,2,0,True,True
+test_489,Substitution cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.096,0.1,0.0,0.857,0.85,3,2,False,False
+test_490,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.102,0.1,0.0,0.917,0.95,2,1,False,True
+test_491,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.612,0.2,0.0,0.917,1.0,2,0,True,True
+test_492,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.613,0.133,0.0,1.0,0.95,3,3,True,True
+test_493,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,3,3,True,True
+test_494,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.623,0.3,0.0,0.929,0.95,4,3,True,True
+test_495,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.133,0.0,0.111,1.0,0.95,3,0,False,True
+test_496,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.126,0.1,0.125,0.786,0.92,5,4,False,True
+test_497,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,4,2,True,True
+test_498,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.096,0.1,0.0,0.857,0.9,4,3,False,True
+test_499,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.608,0.3,0.0,0.778,0.85,5,3,True,True
+test_500,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.614,0.2,0.0,0.938,1.0,4,0,True,True
+test_501,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.091,0.1,0.0,0.812,0.92,4,3,False,True
+test_502,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.592,0.0,0.0,0.917,1.0,3,2,True,True
+test_503,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.104,0.1,0.0,0.938,0.95,4,2,False,True
+test_504,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.65,0.567,0.0,0.938,0.95,3,3,True,True
+test_505,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.085,0.1,0.0,0.75,0.9,4,3,False,True
+test_506,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.102,0.1,0.0,0.917,0.9,4,3,False,True
+test_507,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-CBC,0.0,True,0.103,0.1,0.0,0.929,0.95,3,3,False,True
+test_508,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.102,0.1,0.0,0.917,0.85,3,2,False,True
+test_509,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.69,0.9,0.0,1.0,0.95,3,3,True,True
+test_510,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.673,0.9,0.0,0.833,0.95,3,2,True,True
+test_511,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.0,0.0,1.0,0.95,2,0,False,True
+test_512,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.085,0.1,0.0,0.75,0.95,3,2,False,True
+test_513,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-CBC,0.0,True,0.11,0.1,0.0,1.0,0.95,4,4,False,True
+test_514,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.936,0.8,1.0,0.559,1.0,4,4,True,True
+test_515,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.629,0.2,0.077,0.857,1.0,3,0,True,True
+test_516,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.586,0.0,0.0,0.857,0.95,3,1,True,True
+test_517,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,3,3,True,True
+test_518,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.103,0.1,0.0,0.929,0.95,2,1,False,True
+test_519,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.586,0.0,0.0,0.857,0.9,3,3,True,True
+test_520,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.69,0.9,0.0,1.0,0.95,3,2,True,True
+test_521,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.686,1.0,0.0,0.857,0.95,2,2,True,True
+test_522,Caesar cipher,classical,classical,1.0,Vigenère cipher,0.0,True,0.093,0.1,0.0,0.833,0.95,3,2,False,True
+test_523,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,3,3,True,True
+test_524,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,0.99,3,3,True,True
+test_525,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.64,0.4,0.0,1.0,0.95,3,2,True,True
+test_526,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.601,0.2,0.0,0.812,0.95,4,4,True,True
+test_527,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.085,0.1,0.0,0.75,0.95,4,3,False,True
+test_528,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.103,0.1,0.0,0.929,0.95,3,3,False,True
+test_529,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.693,1.0,0.0,0.929,1.0,2,2,True,True
+test_530,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.089,0.1,0.0,0.786,0.95,2,2,False,True
+test_531,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,True
+test_532,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.089,0.1,0.0,0.786,0.95,5,4,False,True
+test_533,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_534,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.094,0.0,0.0,0.938,0.95,3,0,False,True
+test_535,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_536,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.093,0.1,0.0,0.833,0.95,4,3,False,True
+test_537,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.59,0.0,0.0,0.9,1.0,2,1,True,True
+test_538,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_539,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.622,0.3,0.0,0.917,1.0,3,3,True,True
+test_540,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.6,0.2,0.0,0.8,0.95,2,0,True,True
+test_541,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.633,0.0,0.111,1.0,0.98,3,3,True,True
+test_542,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.586,0.0,0.0,0.857,1.0,3,3,True,True
+test_543,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.633,0.0,0.111,1.0,1.0,3,2,True,True
+test_544,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.637,0.0,0.125,1.0,0.85,3,2,True,True
+test_545,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.081,0.1,0.0,0.714,1.0,3,2,False,True
+test_546,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.583,0.0,0.0,0.833,1.0,3,2,True,True
+test_547,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.9,3,3,False,False
+test_548,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,2,0,False,True
+test_549,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.605,0.133,0.0,0.917,0.98,3,3,True,True
+test_550,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.644,0.5,0.0,0.938,0.95,2,1,True,True
+test_551,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.597,0.133,0.0,0.833,0.9,3,3,True,True
+test_552,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_553,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.622,0.3,0.0,0.917,0.95,3,3,True,True
+test_554,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.6,0.0,0.0,1.0,0.9,3,4,True,True
+test_555,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.6,0.0,0.0,1.0,1.0,2,1,True,True
+test_556,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.643,0.0,0.143,1.0,1.0,3,2,True,True
+test_557,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.683,0.9,0.0,0.929,0.95,3,2,True,True
+test_558,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.093,0.0,0.0,0.929,0.95,2,0,False,True
+test_559,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.093,0.1,0.0,0.833,0.95,3,3,False,True
+test_560,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.65,0.5,0.0,1.0,0.9,3,1,True,True
+test_561,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.093,0.0,0.0,0.929,0.95,2,0,False,True
+test_562,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.102,0.1,0.0,0.917,0.85,3,2,False,False
+test_563,Substitution cipher,classical,modern symmetric,0.0,AES-ECB,0.0,True,0.098,0.1,0.0,0.875,0.75,3,3,False,False
+test_564,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.632,0.4,0.0,0.917,0.98,3,2,True,True
+test_565,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.944,0.567,1.0,0.875,1.0,3,3,True,True
+test_566,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.596,0.033,0.0,0.929,0.9,3,4,True,True
+test_567,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.905,0.133,1.0,0.917,1.0,3,3,True,True
+test_568,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.093,0.1,0.0,0.833,0.95,3,3,False,True
+test_569,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.597,0.033,0.0,0.938,0.9,4,4,True,True
+test_570,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.096,0.1,0.0,0.857,1.0,3,2,False,True
+test_571,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.119,0.1,0.077,0.857,0.95,4,3,False,True
+test_572,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.63,0.3,0.0,1.0,0.95,3,3,True,True
+test_573,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.655,0.3,0.111,0.917,0.95,4,4,True,True
+test_574,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.633,0.4,0.0,0.929,0.95,3,2,True,True
+test_575,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.625,0.5,0.0,0.75,1.0,3,1,True,True
+test_576,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.148,0.1,0.143,0.95,0.95,2,2,False,True
+test_577,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_578,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.133,0.0,0.111,1.0,0.95,3,0,False,True
+test_579,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.08,0.0,0.0,0.8,0.95,3,0,False,True
+test_580,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.886,0.0,1.0,0.857,1.0,3,4,True,True
+test_581,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.62,0.2,0.0,1.0,0.99,2,0,True,True
+test_582,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.653,0.2,0.111,1.0,1.0,3,0,True,True
+test_583,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.098,0.1,0.0,0.875,0.95,3,1,False,True
+test_584,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.63,0.3,0.0,1.0,0.95,3,3,True,True
+test_585,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.636,0.5,0.0,0.857,0.95,3,1,True,True
+test_586,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.088,0.0,0.0,0.875,0.95,3,0,False,True
+test_587,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.614,0.2,0.0,0.938,0.99,3,0,True,True
+test_588,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.906,0.467,0.889,0.929,0.98,3,4,True,True
+test_589,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.601,0.133,0.0,0.875,0.9,3,3,True,True
+test_590,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.906,0.133,1.0,0.929,1.0,3,3,True,True
+test_591,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.69,0.467,0.143,1.0,0.9,4,4,True,True
+test_592,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.0,0.0,1.0,0.95,2,0,False,True
+test_593,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.591,0.2,0.0,0.714,0.95,6,4,True,True
+test_594,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.95,0.567,1.0,0.938,1.0,2,3,True,True
+test_595,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,True
+test_596,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.624,0.3,0.0,0.938,0.95,3,3,True,True
+test_597,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.609,0.2,0.0,0.889,0.95,4,4,True,True
+test_598,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_599,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,2,2,True,True
+test_600,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.914,0.567,1.0,0.575,1.0,3,3,True,True
+test_601,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.13,0.1,0.091,0.929,0.95,4,4,False,True
+test_602,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.673,0.8,0.0,0.929,0.95,3,3,True,True
+test_603,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.605,0.3,0.0,0.75,0.9,3,3,True,True
+test_604,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.583,0.0,0.0,0.833,1.0,2,2,True,True
+test_605,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.903,0.033,1.0,1.0,1.0,2,4,True,True
+test_606,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,4,4,True,True
+test_607,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.62,0.2,0.0,1.0,0.95,2,0,True,True
+test_608,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.613,0.133,0.0,1.0,1.0,3,3,True,True
+test_609,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.692,1.0,0.0,0.917,0.95,3,2,True,True
+test_610,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.6,0.0,0.0,1.0,0.95,2,1,True,True
+test_611,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.895,0.2,1.0,0.75,1.0,4,4,True,True
+test_612,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.913,0.133,1.0,1.0,1.0,3,3,True,True
+test_613,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.067,0.1,0.0,0.571,0.95,4,3,False,True
+test_614,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,4,3,True,True
+test_615,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.613,0.133,0.0,1.0,0.85,3,3,True,True
+test_616,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,2,False,True
+test_617,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.642,0.5,0.0,0.917,1.0,2,1,True,True
+test_618,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.61,0.2,0.0,0.9,1.0,2,0,True,True
+test_619,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.606,0.133,0.0,0.929,1.0,4,3,True,True
+test_620,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,3,True,True
+test_621,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.618,0.3,0.0,0.875,0.95,3,3,True,True
+test_622,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.104,0.1,0.0,0.938,0.95,3,2,False,True
+test_623,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.95,3,3,False,True
+test_624,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.897,0.3,1.0,0.667,1.0,3,3,True,True
+test_625,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-CBC,0.0,True,0.103,0.1,0.0,0.929,0.95,3,3,False,True
+test_626,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.618,0.3,0.0,0.875,0.95,5,3,True,True
+test_627,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.083,0.0,0.0,0.833,0.95,2,0,False,True
+test_628,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_629,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.594,0.0,0.0,0.938,1.0,3,3,True,True
+test_630,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.7,1.0,0.0,1.0,1.0,3,3,True,True
+test_631,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.624,0.3,0.0,0.938,0.95,3,3,True,True
+test_632,Substitution cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.9,3,2,False,False
+test_633,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.102,0.1,0.0,0.917,0.95,3,1,False,True
+test_634,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.683,1.0,0.0,0.833,0.95,2,2,True,True
+test_635,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.695,0.2,0.25,1.0,0.95,2,0,True,True
+test_636,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,1.0,0,0,True,True
+test_637,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.592,0.0,0.0,0.917,1.0,3,2,True,True
+test_638,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.0,0.0,1.0,0.95,2,0,False,True
+test_639,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.692,1.0,0.0,0.917,0.95,3,2,True,True
+test_640,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,3,3,True,True
+test_641,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.673,0.8,0.0,0.929,0.95,3,3,True,True
+test_642,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.593,0.0,0.0,0.929,0.95,2,1,True,True
+test_643,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.146,0.1,0.143,0.929,0.95,4,3,False,True
+test_644,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.093,0.1,0.0,0.833,0.95,3,3,False,True
+test_645,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,1.0,4,3,False,True
+test_646,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.079,0.1,0.0,0.688,0.95,4,4,False,True
+test_647,Caesar cipher,classical,classical,1.0,Vigenère cipher,0.0,True,0.222,0.1,0.429,0.833,0.95,4,4,False,True
+test_648,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.588,0.0,0.0,0.875,0.95,3,3,True,True
+test_649,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.9,3,3,False,False
+test_650,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,3,3,False,True
+test_651,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.603,0.2,0.0,0.833,0.98,3,0,True,True
+test_652,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.673,0.9,0.0,0.833,0.9,3,3,True,True
+test_653,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,3,1,False,True
+test_654,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.68,0.8,0.0,1.0,0.95,3,3,True,True
+test_655,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.089,0.1,0.0,0.786,0.95,5,4,False,True
+test_656,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.103,0.1,0.0,0.929,0.9,4,3,False,True
+test_657,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.62,0.2,0.0,1.0,0.99,3,0,True,True
+test_658,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.599,0.133,0.0,0.857,0.95,3,3,True,True
+test_659,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.63,0.3,0.0,1.0,1.0,3,3,True,True
+test_660,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.622,0.3,0.0,0.917,0.95,4,3,True,True
+test_661,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_662,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,2,1,True,True
+test_663,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.894,0.3,1.0,0.643,1.0,3,3,True,True
+test_664,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.95,3,3,False,True
+test_665,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.622,0.3,0.0,0.917,0.9,3,3,True,True
+test_666,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.633,0.5,0.0,0.833,0.95,2,1,True,True
+test_667,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.593,0.0,0.0,0.929,0.95,3,1,True,True
+test_668,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_669,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.683,0.9,0.0,0.929,0.95,3,2,True,True
+test_670,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.606,0.2,0.0,0.857,1.0,2,0,True,True
+test_671,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.624,0.3,0.0,0.938,0.92,3,3,True,True
+test_672,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.63,0.3,0.0,1.0,1.0,3,3,True,True
+test_673,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.642,0.3,0.111,0.786,0.95,3,3,True,True
+test_674,Substitution cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.148,0.1,0.125,1.0,0.85,2,2,False,False
+test_675,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.69,0.9,0.0,1.0,0.95,3,2,True,True
+test_676,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,2,3,True,True
+test_677,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.083,0.0,0.0,0.833,1.0,2,0,False,True
+test_678,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.579,0.0,0.0,0.786,0.95,4,3,True,True
+test_679,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.1,0.1,0.0,0.9,0.95,3,2,False,True
+test_680,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.58,0.0,0.0,0.8,1.0,3,3,True,True
+test_681,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.092,0.0,0.0,0.917,0.95,3,0,False,True
+test_682,Caesar cipher,classical,classical,1.0,Vigenère cipher,0.0,True,0.089,0.1,0.0,0.786,0.95,4,3,False,True
+test_683,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_684,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.66,0.3,0.125,0.929,0.95,3,3,True,True
+test_685,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.65,0.567,0.0,0.938,0.95,4,3,True,True
+test_686,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,True
+test_687,Caesar cipher,classical,modern symmetric,0.0,AES-ECB,0.0,True,0.096,0.1,0.0,0.857,0.95,4,4,False,False
+test_688,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_689,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.632,0.4,0.0,0.917,0.95,3,2,True,True
+test_690,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.69,0.9,0.0,1.0,0.9,3,2,True,True
+test_691,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.093,0.1,0.0,0.833,0.95,2,1,False,True
+test_692,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.647,0.3,0.111,0.833,0.95,4,3,True,True
+test_693,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.603,0.2,0.0,0.833,1.0,2,0,True,True
+test_694,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.623,0.233,0.0,1.0,1.0,3,2,True,True
+test_695,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_696,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.136,0.1,0.111,0.929,0.98,4,2,False,True
+test_697,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.103,0.1,0.0,0.929,0.95,2,3,False,True
+test_698,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.635,0.0,0.143,0.917,0.95,3,2,True,True
+test_699,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.096,0.1,0.0,0.857,0.95,3,2,False,True
+test_700,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.646,0.2,0.143,0.833,1.0,3,0,True,True
+test_701,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.601,0.133,0.0,0.875,0.95,4,3,True,True
+test_702,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,3,3,True,True
+test_703,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.68,0.8,0.0,1.0,0.95,3,3,True,True
+test_704,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.085,0.1,0.0,0.75,0.9,4,3,False,True
+test_705,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.613,0.2,0.0,0.929,1.0,2,0,True,True
+test_706,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.098,0.1,0.0,0.875,0.95,4,3,False,True
+test_707,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.11,0.1,0.0,1.0,0.95,4,1,False,True
+test_708,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.592,0.0,0.0,0.917,1.0,3,2,True,True
+test_709,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.081,0.1,0.0,0.714,0.95,4,3,False,True
+test_710,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.605,0.133,0.0,0.917,0.95,4,3,True,True
+test_711,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.623,0.4,0.0,0.833,0.98,3,2,True,True
+test_712,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.622,0.3,0.0,0.917,0.95,3,3,True,True
+test_713,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.613,0.2,0.0,0.929,0.95,2,0,True,True
+test_714,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.62,0.2,0.0,1.0,1.0,1,0,True,True
+test_715,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.096,0.1,0.0,0.857,0.95,3,3,False,True
+test_716,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.629,0.0,0.125,0.917,0.95,3,3,True,True
+test_717,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_718,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.096,0.1,0.0,0.857,0.98,3,2,False,True
+test_719,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.98,2,1,False,True
+test_720,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.888,0.3,0.889,0.917,1.0,3,3,True,True
+test_721,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.601,0.3,0.0,0.714,0.95,4,3,True,True
+test_722,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.903,0.133,1.0,0.9,1.0,2,3,True,True
+test_723,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.11,0.1,0.0,1.0,0.95,2,1,False,True
+test_724,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.6,0.0,0.0,1.0,0.95,3,2,True,True
+test_725,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.583,0.0,0.0,0.833,1.0,4,2,True,True
+test_726,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.086,0.0,0.0,0.857,0.95,2,0,False,True
+test_727,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,True
+test_728,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.612,0.2,0.0,0.917,1.0,3,0,True,True
+test_729,Substitution cipher,classical,classical,1.0,Vigenère cipher,0.0,True,0.11,0.1,0.0,1.0,0.95,3,3,False,True
+test_730,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_731,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_732,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.581,0.0,0.0,0.812,0.98,3,1,True,True
+test_733,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.626,0.4,0.0,0.857,1.0,3,2,True,True
+test_734,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.612,0.2,0.0,0.917,1.0,0,0,True,True
+test_735,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.64,0.4,0.0,1.0,0.95,3,2,True,True
+test_736,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.623,0.0,0.077,1.0,1.0,2,2,True,True
+test_737,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.59,0.0,0.0,0.9,0.99,3,2,True,True
+test_738,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.616,0.3,0.0,0.857,0.9,4,3,True,True
+test_739,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.081,0.1,0.0,0.714,0.95,4,4,False,True
+test_740,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.606,0.2,0.0,0.857,0.98,0,0,True,True
+test_741,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,1.0,3,2,False,True
+test_742,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.978,1.0,1.0,0.775,1.0,2,3,True,True
+test_743,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.616,0.3,0.0,0.857,0.95,3,3,True,True
+test_744,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.614,0.2,0.0,0.938,0.9,2,0,True,True
+test_745,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,3,3,False,True
+test_746,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_747,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.11,0.1,0.0,1.0,0.98,2,2,False,True
+test_748,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.69,0.9,0.0,1.0,0.9,3,2,True,True
+test_749,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_750,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.671,0.9,0.0,0.812,0.95,2,2,True,True
+test_751,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-CBC,0.0,True,0.098,0.1,0.0,0.875,0.85,3,3,False,True
+test_752,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_753,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.643,0.2,0.111,0.9,0.95,2,0,True,True
+test_754,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,1,False,True
+test_755,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,4,2,True,True
+test_756,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.096,0.1,0.0,0.857,0.95,3,2,False,True
+test_757,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.103,0.1,0.0,0.929,0.95,3,2,False,True
+test_758,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.085,0.1,0.0,0.75,0.95,3,1,False,True
+test_759,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.588,0.0,0.0,0.875,0.98,2,2,True,True
+test_760,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.633,0.0,0.111,1.0,1.0,3,3,True,True
+test_761,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.62,0.2,0.0,1.0,0.95,3,0,True,True
+test_762,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_763,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.626,0.4,0.0,0.857,1.0,3,2,True,True
+test_764,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.65,0.2,0.125,0.929,1.0,3,0,True,True
+test_765,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.683,0.9,0.0,0.929,0.95,3,2,True,True
+test_766,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.592,0.0,0.0,0.917,1.0,3,1,True,True
+test_767,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,3,1,True,True
+test_768,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.635,0.033,0.125,0.938,0.95,4,4,True,True
+test_769,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.63,0.3,0.0,1.0,0.9,5,3,True,True
+test_770,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,2,0,True,True
+test_771,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.63,0.3,0.0,1.0,0.95,3,3,True,True
+test_772,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.608,0.2,0.0,0.875,1.0,4,4,True,True
+test_773,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.091,0.1,0.0,0.812,0.95,4,4,False,True
+test_774,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.102,0.1,0.0,0.917,0.9,5,3,False,True
+test_775,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_776,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.595,0.133,0.0,0.812,0.9,3,3,True,True
+test_777,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.596,0.033,0.0,0.929,0.95,4,4,True,True
+test_778,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.956,1.0,0.909,0.833,1.0,3,3,True,True
+test_779,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.95,2,2,False,True
+test_780,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.102,0.1,0.0,0.917,0.95,3,3,False,True
+test_781,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.613,0.133,0.0,1.0,0.95,3,3,True,True
+test_782,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.683,0.9,0.0,0.929,0.95,2,3,True,True
+test_783,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.103,0.1,0.0,0.929,0.85,4,3,False,True
+test_784,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.612,0.2,0.0,0.917,0.95,2,0,True,True
+test_785,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,3,True,True
+test_786,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_787,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.575,0.0,0.0,0.75,1.0,3,2,True,True
+test_788,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.098,0.1,0.0,0.875,0.95,3,3,False,True
+test_789,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.603,0.2,0.0,0.833,0.95,5,4,True,True
+test_790,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,1,0,True,True
+test_791,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.6,0.0,0.0,1.0,0.95,3,1,True,True
+test_792,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.935,0.567,1.0,0.786,1.0,2,3,True,True
+test_793,Ed25519,asymmetric,asymmetric,1.0,ECDSA (P-256),0.0,True,0.096,0.1,0.0,0.857,0.95,3,3,False,True
+test_794,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.09,0.0,0.0,0.9,0.95,2,0,False,True
+test_795,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.1,0.0,0.0,1.0,0.95,2,0,False,True
+test_796,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.592,0.0,0.0,0.917,1.0,3,2,True,True
+test_797,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.64,0.4,0.0,1.0,0.95,2,2,True,True
+test_798,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.608,0.3,0.0,0.778,0.95,3,3,True,True
+test_799,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.09,0.1,0.0,0.8,0.95,3,2,False,True
+test_800,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,0.99,3,3,True,True
+test_801,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.119,0.0,0.111,0.857,0.95,3,0,False,True
+test_802,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,1,False,True
+test_803,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.666,0.8,0.0,0.857,0.92,3,3,True,True
+test_804,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.633,0.5,0.0,0.833,0.95,2,1,True,True
+test_805,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.632,0.4,0.0,0.917,1.0,3,2,True,True
+test_806,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.092,0.0,0.0,0.917,0.95,2,0,False,True
+test_807,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.103,0.1,0.0,0.929,0.95,3,2,False,True
+test_808,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.9,3,3,False,False
+test_809,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.11,0.1,0.0,1.0,0.95,3,1,False,True
+test_810,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,3,True,True
+test_811,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,3,3,True,True
+test_812,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_813,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.684,0.9,0.0,0.944,0.95,3,3,True,True
+test_814,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.223,0.1,0.462,0.75,0.9,4,3,False,True
+test_815,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.593,0.0,0.0,0.929,1.0,3,2,True,True
+test_816,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.95,3,1,True,True
+test_817,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,1.0,0,0,True,True
+test_818,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.098,0.1,0.0,0.875,0.9,5,4,False,True
+test_819,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.093,0.1,0.0,0.833,0.98,2,2,False,True
+test_820,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.583,0.0,0.0,0.833,1.0,3,2,True,True
+test_821,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,1,False,True
+test_822,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.612,0.2,0.0,0.917,0.95,3,0,True,True
+test_823,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,1,True,True
+test_824,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.592,0.0,0.0,0.917,1.0,4,2,True,True
+test_825,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.595,0.2,0.0,0.75,0.95,3,0,True,True
+test_826,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.916,0.3,1.0,0.864,1.0,3,3,True,True
+test_827,Vigenère cipher,classical,classical,1.0,Vigenère cipher,1.0,True,0.609,0.3,0.0,0.786,0.95,3,3,True,True
+test_828,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.6,0.0,0.0,1.0,1.0,3,3,True,True
+test_829,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.104,0.1,0.0,0.938,0.85,3,3,False,False
+test_830,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.093,0.1,0.0,0.833,0.95,4,3,False,True
+test_831,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,1.0,True,0.612,0.2,0.0,0.917,0.95,3,0,True,True
+test_832,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,True
+test_833,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.11,0.1,0.0,1.0,0.95,3,2,False,True
+test_834,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.581,0.0,0.0,0.812,1.0,3,3,True,True
+test_835,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.975,1.0,1.0,0.75,1.0,3,3,True,True
+test_836,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.95,2,1,False,True
+test_837,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.9,3,3,True,True
+test_838,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.614,0.2,0.0,0.938,1.0,4,0,True,True
+test_839,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.585,0.033,0.0,0.812,0.95,3,4,True,True
+test_840,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.11,0.1,0.0,1.0,0.98,3,2,False,True
+test_841,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.635,0.0,0.143,0.917,0.9,3,3,True,True
+test_842,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.646,0.2,0.111,0.929,1.0,3,0,True,True
+test_843,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.606,0.2,0.0,0.857,1.0,0,0,True,True
+test_844,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.093,0.1,0.0,0.833,0.9,4,3,False,True
+test_845,Caesar cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.85,3,2,False,False
+test_846,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.633,0.0,0.111,1.0,0.92,3,1,True,True
+test_847,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.657,0.567,0.0,1.0,0.95,3,3,True,True
+test_848,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.596,0.033,0.0,0.929,0.95,4,4,True,True
+test_849,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.092,0.0,0.0,0.917,1.0,2,0,False,True
+test_850,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.612,0.2,0.0,0.917,0.98,2,0,True,True
+test_851,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.63,0.3,0.0,1.0,0.95,3,3,True,True
+test_852,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.581,0.0,0.0,0.812,0.95,3,2,True,True
+test_853,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.599,0.2,0.0,0.786,0.95,3,0,True,True
+test_854,Vigenère cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.098,0.1,0.0,0.875,0.95,3,3,False,True
+test_855,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.09,0.0,0.0,0.9,0.95,3,0,False,True
+test_856,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.083,0.0,0.0,0.833,1.0,2,0,False,True
+test_857,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.086,0.0,0.0,0.857,0.95,2,0,False,True
+test_858,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.6,0.0,0.0,1.0,0.95,3,1,True,True
+test_859,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.599,0.2,0.0,0.786,0.98,2,0,True,True
+test_860,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.083,0.0,0.0,0.833,0.95,3,0,False,True
+test_861,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.581,0.0,0.0,0.812,1.0,4,3,True,True
+test_862,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.957,0.567,1.0,1.0,1.0,3,3,True,True
+test_863,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,2,2,True,True
+test_864,ChaCha20-Poly1305,modern_symmetric,modern symmetric,1.0,AES-GCM,0.0,True,0.127,0.0,0.111,0.938,0.95,3,0,False,True
+test_865,AES-GCM,modern_symmetric,modern symmetric,1.0,ChaCha20-Poly1305,0.0,True,0.1,0.0,0.0,1.0,0.95,3,0,False,True
+test_866,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.62,0.2,0.0,1.0,1.0,0,0,True,True
+test_867,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.69,0.9,0.0,1.0,0.95,3,2,True,True
+test_868,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,1.0,3,2,False,True
+test_869,Caesar cipher,classical,classical,1.0,Substitution cipher,0.0,True,0.378,0.1,1.0,0.682,1.0,5,4,False,True
+test_870,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.104,0.1,0.0,0.938,0.95,3,3,False,True
+test_871,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.692,0.8,0.125,0.75,0.95,4,4,True,True
+test_872,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.62,0.2,0.0,1.0,1.0,2,0,True,True
+test_873,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.592,0.0,0.0,0.917,0.95,2,2,True,True
+test_874,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.609,0.2,0.0,0.889,1.0,3,0,True,True
+test_875,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.614,0.2,0.0,0.938,1.0,3,0,True,True
+test_876,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.623,0.3,0.0,0.929,0.95,3,3,True,True
+test_877,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.6,0.0,0.0,1.0,1.0,3,1,True,True
+test_878,Vigenère cipher,classical,modern symmetric,0.0,AES-CTR,0.0,True,0.11,0.1,0.0,1.0,0.85,2,1,False,False
+test_879,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.634,0.467,0.0,0.875,0.95,3,4,True,True
+test_880,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.6,0.0,0.0,1.0,1.0,3,2,True,True
+test_881,ECDSA (P-256),asymmetric,asymmetric,1.0,ECDSA (P-256),1.0,True,0.601,0.2,0.0,0.812,0.99,3,0,True,True
+test_882,AES-CTR,modern_symmetric,modern symmetric,1.0,AES-CTR,1.0,True,0.6,0.0,0.0,1.0,0.9,3,2,True,True
+test_883,Caesar cipher,classical,classical,1.0,Caesar cipher,1.0,True,0.976,0.9,1.0,0.857,1.0,3,4,True,True
+test_884,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.599,0.2,0.0,0.786,0.98,5,4,True,True
+test_885,RSA-4096,asymmetric,asymmetric,1.0,RSA-4096,1.0,True,0.63,0.3,0.0,1.0,0.99,3,3,True,True
+test_886,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.676,0.9,0.0,0.857,0.85,3,3,True,True
+test_887,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,0.95,3,0,True,True
+test_888,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.673,0.8,0.0,0.929,0.95,3,3,True,True
+test_889,SHA-256,hash,hash,1.0,SHA-256,1.0,True,0.683,1.0,0.0,0.833,0.95,2,2,True,True
+test_890,Substitution cipher,classical,classical,1.0,Substitution cipher,1.0,True,0.717,0.2,0.364,0.875,0.8,4,4,True,True
+test_891,Ed25519,asymmetric,asymmetric,1.0,Ed25519,1.0,True,0.603,0.2,0.0,0.833,1.0,0,0,True,True
+test_892,AES-CBC,modern_symmetric,modern symmetric,1.0,AES-CBC,1.0,True,0.63,0.3,0.0,1.0,0.92,3,3,True,True
+test_893,AES-ECB,modern_symmetric,modern symmetric,1.0,AES-ECB,1.0,True,0.613,0.133,0.0,1.0,0.95,3,3,True,True
+test_894,AES-GCM,modern_symmetric,modern symmetric,1.0,AES-GCM,1.0,True,0.613,0.2,0.0,0.929,0.95,3,0,True,True
+test_895,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.103,0.1,0.0,0.929,1.0,2,1,False,True
+test_896,RSA-2048,asymmetric,asymmetric,1.0,RSA-2048,1.0,True,0.62,0.2,0.0,1.0,1.0,3,0,True,True
+test_897,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.0,0.0,1.0,0.9,3,0,False,True
+test_898,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_899,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.102,0.1,0.0,0.917,0.95,2,2,False,True
+test_900,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.0,0.0,1.0,0.98,2,0,False,True
