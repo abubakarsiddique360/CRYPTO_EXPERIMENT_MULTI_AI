@@ -14,3 +14,5 @@ rsa_2048_000,RSA-2048,asymmetric,hard,True,0.7600000000000001,0.5,1.0,0.9,0.75,4
 rsa_4096_000,RSA-4096,asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.65,5,3
 ecdsa_000,ECDSA (P-256),asymmetric,very_hard,True,0.36000000000000004,0.5,0.0,0.9,0.75,4,3
 ed25519_000,Ed25519,asymmetric,very_hard,True,0.375,0.5,0.0,1.0,0.75,5,3
+
+# REFRESH_2026
