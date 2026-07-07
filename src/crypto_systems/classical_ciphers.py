@@ -141,3 +141,4 @@ class ClassicalCiphers:
         
         print(f"Generated {len(test_cases)} classical cipher test cases")
         return test_cases
+# REFRESH_2026

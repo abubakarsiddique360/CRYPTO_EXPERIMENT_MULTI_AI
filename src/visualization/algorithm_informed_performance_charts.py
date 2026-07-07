@@ -267,3 +267,5 @@ class PerformanceCharts:
         fig.add_annotation(x=0.5, y=0.5, text=message, showarrow=False, font=dict(size=16), xref='paper', yref='paper')
         fig.update_layout(title='No Data Available', xaxis=dict(visible=False), yaxis=dict(visible=False), height=600)
         return fig
+
+# REFRESH_2026

@@ -106,3 +106,5 @@ def is_latex_style() -> bool:
 def output_dir() -> Path:
     """Return the output directory for comparison figures."""
     return Path("data") / "comparisons"
+
+# REFRESH_2026

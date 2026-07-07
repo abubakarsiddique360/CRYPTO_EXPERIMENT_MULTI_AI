@@ -258,3 +258,5 @@ class GrokCryptanalyst(BaseAIClient):
         output_cost = (output_tokens / 1000) * config.GROK_COST_PER_1K_OUTPUT
         return input_cost + output_cost
 
+
+# REFRESH_2026

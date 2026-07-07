@@ -3,3 +3,5 @@
 from .algorithm_informed_table_generator import TableGenerator
 
 __all__ = ["TableGenerator"]
+
+# REFRESH_2026

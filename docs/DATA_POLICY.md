@@ -31,3 +31,5 @@ Option B:
 
 - `.env` is ignored by git.
 - `.env.example` should be committed as a template.
+
+# REFRESH_2026

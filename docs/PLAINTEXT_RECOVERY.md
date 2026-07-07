@@ -87,3 +87,5 @@ Per-platform wrappers:
 Notes:
 - Use `--no-substitution` if you want a cleaner benchmark (substitution can be extremely hard ciphertext-only).
 - Keep `--seed` fixed for reproducibility in a research setting.
+
+# REFRESH_2026

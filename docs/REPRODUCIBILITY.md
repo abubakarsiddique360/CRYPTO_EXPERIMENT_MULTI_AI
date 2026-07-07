@@ -66,3 +66,5 @@ Examples:
 - `data/results/deepseek/algorithm_hidden/tables/...html/.png`
 
 By default, `data/results/` is gitignored. See `docs/DATA_POLICY.md`.
+
+# REFRESH_2026

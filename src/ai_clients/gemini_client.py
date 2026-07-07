@@ -238,3 +238,5 @@ class GeminiCryptanalyst(BaseAIClient):
         input_cost = (input_tokens / 1000) * config.GEMINI_COST_PER_1K_INPUT
         output_cost = (output_tokens / 1000) * config.GEMINI_COST_PER_1K_OUTPUT
         return input_cost + output_cost
+
+# REFRESH_2026

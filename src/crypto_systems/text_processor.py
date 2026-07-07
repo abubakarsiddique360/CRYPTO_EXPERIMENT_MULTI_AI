@@ -26,3 +26,4 @@ def chunk_text(text: str, max_length: int = 100) -> List[str]:
         chunks.append(' '.join(current_chunk))
     
     return chunks
+# REFRESH_2026

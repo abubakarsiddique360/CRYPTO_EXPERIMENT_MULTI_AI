@@ -192,3 +192,5 @@ class AlgorithmHiddenPerformanceCharts:
             })
 
         return pd.DataFrame(data)
+
+# REFRESH_2026

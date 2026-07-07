@@ -76,3 +76,5 @@ class PlaintextRecoveryPrompts:
             + "Encrypted data (JSON):\n"
             + json.dumps(payload, ensure_ascii=False, indent=2)
         )
+
+# REFRESH_2026
