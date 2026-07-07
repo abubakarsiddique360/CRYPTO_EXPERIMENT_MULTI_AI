@@ -43,12 +43,6 @@ A template is provided in [.env.example](.env.example).
 - `GEMINI_API_KEY`
 - `GROK_API_KEY`
 
-## Paper (Overleaf)
-
-The paper source is maintained in [paper_ieee_full/main.tex.txt](paper_ieee_full/main.tex.txt).
-
-For Overleaf, upload it as `main.tex` along with the required figure assets from `data/comparisons/`.
-
 ## Reproducing the paper figures (optional)
 
 The generators in [scripts/](scripts/) read raw experiment outputs under `data/results/` and write publication-ready figures/tables into `data/comparisons/`.
