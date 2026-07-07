@@ -19,3 +19,4 @@ jobs:
       - name: Compile project
         run: |
           python -m compileall -q src script config
+
