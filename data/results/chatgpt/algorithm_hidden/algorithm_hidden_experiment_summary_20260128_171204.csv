@@ -899,3 +899,5 @@ test_897,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.1,0.1,0.0,0.9,0.7,4,3,False,
 test_898,BLAKE3,hash,hash,1.0,SHA-256,0.0,True,0.09,0.1,0.0,0.8,0.6,3,3,False,True
 test_899,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.09,0.1,0.0,0.8,0.6,3,3,False,True
 test_900,SHA-3-256,hash,hash,1.0,SHA-256,0.0,True,0.07,0.1,0.0,0.6,0.7,3,3,False,True
+
+# REFRESH_2026

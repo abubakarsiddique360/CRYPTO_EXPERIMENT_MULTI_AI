@@ -33,3 +33,4 @@ class ExperimentConfig:
         self.hash_count = self.sha256_count + self.sha3_256_count + self.blake3_count
         self.total_tests = (self.classical_cipher_count + self.modern_symmetric_count + 
                           self.asymmetric_count + self.hash_count)
+# REFRESH_2026
